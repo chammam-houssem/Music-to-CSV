@@ -3,7 +3,7 @@ import csv
 import os
 import re
 from datetime import datetime
-import requests
+import yt_dlp
 from urllib.parse import urlparse, parse_qs
 
 app = Flask(__name__)
@@ -11,211 +11,76 @@ app = Flask(__name__)
 # Ensure the CSV file exists
 CSV_FILE = 'music_data.csv'
 
-# YouTube API Configuration
-YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY', '')  # Set your API key as environment variable
-YOUTUBE_API_BASE_URL = 'https://www.googleapis.com/youtube/v3'
-
 def ensure_csv_exists():
     if not os.path.exists(CSV_FILE):
         with open(CSV_FILE, 'w', newline='', encoding='utf-8') as file:
             writer = csv.writer(file)
             writer.writerow(['Title', 'Artist', 'Producer', 'Year', 'Album', 'Cover Image', 'YouTube URL', 'Date Added'])
 
-def extract_video_id(url):
-    """Extract video ID from various YouTube URL formats"""
-    parsed_url = urlparse(url)
-    
-    if parsed_url.hostname in ['www.youtube.com', 'youtube.com', 'm.youtube.com']:
-        if parsed_url.path == '/watch':
-            return parse_qs(parsed_url.query).get('v', [None])[0]
-        elif parsed_url.path.startswith('/embed/'):
-            return parsed_url.path.split('/')[2]
-        elif parsed_url.path.startswith('/v/'):
-            return parsed_url.path.split('/')[2]
-    
-    elif parsed_url.hostname == 'youtu.be':
-        return parsed_url.path[1:]
-    
-    return None
-
-def extract_playlist_id(url):
-    """Extract playlist ID from various YouTube playlist URL formats"""
-    parsed_url = urlparse(url)
-    
-    if parsed_url.hostname in ['www.youtube.com', 'youtube.com', 'm.youtube.com']:
-        if parsed_url.path == '/playlist':
-            return parse_qs(parsed_url.query).get('list', [None])[0]
-        elif parsed_url.path.startswith('/playlist/'):
-            return parsed_url.path.split('/')[2]
-    
-    return None
-
 def is_playlist_url(url):
     """Check if the URL is a playlist URL"""
     return 'playlist' in url or 'list=' in url
 
-def extract_metadata_from_url(url):
-    """Extract metadata from YouTube URL using YouTube Data API v3"""
-    video_id = extract_video_id(url)
-    if not video_id:
-        return None
+def parse_yt_dlp_info(info):
+    """Parse the info dictionary from yt-dlp to our format."""
+    title = info.get('title', 'Unknown Title')
+    artist = info.get('artist') or info.get('uploader', 'Unknown Artist')
+    upload_date = info.get('upload_date')  # YYYYMMDD
     
-    # If no API key is provided, fall back to oEmbed API
-    if not YOUTUBE_API_KEY:
-        return extract_metadata_oembed(video_id, url)
-    
-    try:
-        # Use YouTube Data API v3
-        api_url = f"{YOUTUBE_API_BASE_URL}/videos"
-        params = {
-            'part': 'snippet,contentDetails',
-            'id': video_id,
-            'key': YOUTUBE_API_KEY
-        }
-        
-        response = requests.get(api_url, params=params, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        if not data.get('items'):
-            return None
-        
-        video_data = data['items'][0]
-        snippet = video_data['snippet']
-        
-        # Extract basic info
-        title = snippet.get('title', 'Unknown Title')
-        artist = snippet.get('channelTitle', 'Unknown Artist')
-        published_at = snippet.get('publishedAt', '')
-        
-        # Get the highest quality thumbnail
-        thumbnails = snippet.get('thumbnails', {})
-        cover_image = ''
-        if 'maxres' in thumbnails:
-            cover_image = thumbnails['maxres']['url']
-        elif 'high' in thumbnails:
-            cover_image = thumbnails['high']['url']
-        elif 'medium' in thumbnails:
-            cover_image = thumbnails['medium']['url']
-        elif 'default' in thumbnails:
-            cover_image = thumbnails['default']['url']
-        
-        # Extract year from published date
-        year = ''
-        if published_at:
-            try:
-                year = datetime.fromisoformat(published_at.replace('Z', '+00:00')).year
-            except:
-                pass
-        
-        # Try to extract year from title (common pattern: "Song Name (Year)")
-        if not year:
-            year_match = re.search(r'\((\d{4})\)', title)
-            year = year_match.group(1) if year_match else ''
-        
-        # Try to extract album info from title (common pattern: "Song Name - Album Name")
-        album_match = re.search(r' - (.+?)(?:\s*\(|$)', title)
-        album = album_match.group(1) if album_match else ''
-        
-        # Clean up title by removing year and album info
-        clean_title = re.sub(r'\s*\([^)]*\)', '', title)
-        clean_title = re.sub(r'\s*-\s*[^-]*$', '', clean_title)
-        
-        return {
-            'title': clean_title.strip(),
-            'artist': artist,
-            'producer': '',  # YouTube API doesn't provide producer info
-            'year': str(year) if year else '',
-            'album': album,
-            'cover_image': cover_image,
-            'youtube_url': url
-        }
-        
-    except Exception as e:
-        print(f"Error with YouTube Data API: {e}")
-        # Fall back to oEmbed API
-        return extract_metadata_oembed(video_id, url)
+    year = ''
+    if upload_date:
+        year = upload_date[:4]
 
-def extract_metadata_oembed(video_id, url):
-    """Fallback method using oEmbed API"""
-    oembed_url = f"https://www.youtube.com/oembed?url=https://www.youtube.com/watch?v={video_id}&format=json"
-    
-    try:
-        response = requests.get(oembed_url, timeout=10)
-        response.raise_for_status()
-        data = response.json()
-        
-        # Extract basic info
-        title = data.get('title', 'Unknown Title')
-        author = data.get('author_name', 'Unknown Artist')
-        thumbnail = data.get('thumbnail_url', '')
-        
-        # Try to extract year from title (common pattern: "Song Name (Year)")
-        year_match = re.search(r'\((\d{4})\)', title)
-        year = year_match.group(1) if year_match else ''
-        
-        # Try to extract album info from title (common pattern: "Song Name - Album Name")
-        album_match = re.search(r' - (.+?)(?:\s*\(|$)', title)
-        album = album_match.group(1) if album_match else ''
-        
-        # Clean up title by removing year and album info
-        clean_title = re.sub(r'\s*\([^)]*\)', '', title)
-        clean_title = re.sub(r'\s*-\s*[^-]*$', '', clean_title)
-        
-        return {
-            'title': clean_title.strip(),
-            'artist': author,
-            'producer': '',  # YouTube API doesn't provide producer info
-            'year': year,
-            'album': album,
-            'cover_image': thumbnail,
-            'youtube_url': url
-        }
-    except Exception as e:
-        print(f"Error extracting metadata: {e}")
-        return None
+    album = info.get('album', '')
+    track = info.get('track', '')
 
-def get_playlist_video_ids(playlist_id):
-    """Get all video IDs from a playlist using YouTube Data API"""
-    if not YOUTUBE_API_KEY:
-        return None
-    
-    video_ids = []
-    next_page_token = None
-    
+    # Clean up title
+    clean_title = re.sub(r'\s*\([^)]*\)', '', title).strip()
+
+    video_id = info.get('id')
+    youtube_url = f"https://www.youtube.com/watch?v={video_id}"
+
+    thumbnails = info.get('thumbnails', [])
+    cover_image = ''
+    if thumbnails:
+        # Get the best quality thumbnail
+        cover_image = thumbnails[-1]['url']
+
+    return {
+        'title': track or clean_title,
+        'artist': artist,
+        'producer': '',  # Not available from yt-dlp
+        'year': year,
+        'album': album,
+        'cover_image': cover_image,
+        'youtube_url': youtube_url,
+    }
+
+def extract_metadata_with_yt_dlp(url):
+    """Extract metadata from a YouTube URL (video or playlist) using yt-dlp."""
+    ydl_opts = {
+        'quiet': True,
+        'extract_flat': 'in_playlist',
+        'force_generic_extractor': False,
+        'skip_download': True,
+        'format': 'best',
+        'youtube_api_key': 'YOUR_API_KEY'
+    }
+
     try:
-        while True:
-            api_url = f"{YOUTUBE_API_BASE_URL}/playlistItems"
-            params = {
-                'part': 'contentDetails',
-                'playlistId': playlist_id,
-                'maxResults': 50,
-                'key': YOUTUBE_API_KEY
-            }
-            
-            if next_page_token:
-                params['pageToken'] = next_page_token
-            
-            response = requests.get(api_url, params=params, timeout=10)
-            response.raise_for_status()
-            data = response.json()
-            
-            # Extract video IDs
-            for item in data.get('items', []):
-                video_id = item['contentDetails'].get('videoId')
-                if video_id:
-                    video_ids.append(video_id)
-            
-            # Check for next page
-            next_page_token = data.get('nextPageToken')
-            if not next_page_token:
-                break
-                
+        with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+            info = ydl.extract_info(url, download=False)
+        
+        if 'entries' in info and info['entries']:
+            # It's a playlist
+            return [parse_yt_dlp_info(entry) for entry in info['entries'] if entry]
+        else:
+            # It's a single video
+            return [parse_yt_dlp_info(info)]
+
     except Exception as e:
-        print(f"Error getting playlist video IDs: {e}")
+        print(f"Error extracting metadata with yt-dlp: {e}")
         return None
-    
-    return video_ids
 
 def is_duplicate_song(youtube_url):
     """Check if a song already exists in the CSV"""
@@ -266,71 +131,40 @@ def extract_metadata():
         return jsonify({'error': 'Please provide a YouTube URL'}), 400
     
     if song_data:
-        # Use provided song data (from edit form)
-        metadata = song_data
-        add_to_csv(metadata)
-        return jsonify(metadata)
+        # This is a save request from the frontend form
+        add_to_csv(song_data)
+        return jsonify(song_data)
     
-    # Check if it's a playlist URL
+    # This is an extraction request
+    metadata_list = extract_metadata_with_yt_dlp(url)
+    
+    if not metadata_list:
+        return jsonify({'error': 'Could not extract metadata from this URL. Please check if it\'s a valid YouTube video or playlist.'}), 400
+    
     if is_playlist_url(url):
-        return process_playlist(url)
+        # Process playlist: add all songs to CSV
+        processed_songs = []
+        skipped_songs = []
+        
+        for metadata in metadata_list:
+            if not is_duplicate_song(metadata['youtube_url']):
+                add_to_csv(metadata)
+                processed_songs.append(metadata)
+            else:
+                skipped_songs.append(metadata['youtube_url'])
+        
+        return jsonify({
+            'type': 'playlist',
+            'processed_count': len(processed_songs),
+            'skipped_count': len(skipped_songs),
+            'total_count': len(metadata_list),
+            'songs': processed_songs,
+            'skipped_ids': skipped_songs
+        })
     else:
-        # Extract metadata from single video URL
-        metadata = extract_metadata_from_url(url)
-        
-        if not metadata:
-            return jsonify({'error': 'Could not extract metadata from this URL. Please check if it\'s a valid YouTube video.'}), 400
-        
-        # Add to CSV
-        add_to_csv(metadata)
-        
+        # Process single video: return metadata for frontend form
+        metadata = metadata_list[0]
         return jsonify(metadata)
-
-def process_playlist(url):
-    """Process a YouTube playlist URL"""
-    playlist_id = extract_playlist_id(url)
-    
-    if not playlist_id:
-        return jsonify({'error': 'Could not extract playlist ID from this URL. Please check if it\'s a valid YouTube playlist.'}), 400
-    
-    if not YOUTUBE_API_KEY:
-        return jsonify({'error': 'YouTube API key is required to process playlists. Please set the YOUTUBE_API_KEY environment variable.'}), 400
-    
-    # Get all video IDs from playlist
-    video_ids = get_playlist_video_ids(playlist_id)
-    
-    if not video_ids:
-        return jsonify({'error': 'Could not retrieve videos from this playlist. Please check if the playlist is public and accessible.'}), 400
-    
-    # Process each video
-    processed_songs = []
-    skipped_songs = []
-    
-    for video_id in video_ids:
-        video_url = f"https://www.youtube.com/watch?v={video_id}"
-        
-        # Check for duplicates
-        if is_duplicate_song(video_url):
-            skipped_songs.append(video_id)
-            continue
-        
-        # Extract metadata for this video
-        metadata = extract_metadata_from_url(video_url)
-        
-        if metadata:
-            add_to_csv(metadata)
-            processed_songs.append(metadata)
-        else:
-            skipped_songs.append(video_id)
-    
-    return jsonify({
-        'type': 'playlist',
-        'processed_count': len(processed_songs),
-        'skipped_count': len(skipped_songs),
-        'total_count': len(video_ids),
-        'songs': processed_songs,
-        'skipped_ids': skipped_songs
-    })
 
 @app.route('/library')
 def library():
