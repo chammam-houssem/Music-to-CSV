@@ -38,8 +38,23 @@
             font-weight: 300;
         }
 
-        .input-group {
+        .input-section {
             margin-bottom: 30px;
+        }
+        
+        .input-group {
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 2px solid #e1e5e9;
+            border-radius: 15px;
+            background: #f8f9fa;
+        }
+        
+        .input-group h3 {
+            margin-bottom: 15px;
+            color: #333;
+            font-size: 1.2rem;
+            font-weight: 500;
         }
 
         input[type="url"] {
@@ -396,6 +411,15 @@
                 font-size: 2rem;
             }
             
+            .input-group {
+                padding: 15px;
+                margin-bottom: 15px;
+            }
+            
+            .input-group h3 {
+                font-size: 1.1rem;
+            }
+            
             .song-header {
                 flex-direction: column;
                 text-align: center;
@@ -412,11 +436,19 @@
     <div class="container">
         <h1>🎵 Music & Playlist Extractor</h1>
         
-        <div class="input-group">
-            <input type="url" id="youtubeUrl" placeholder="Paste YouTube video, playlist, or YouTube Music URL here..." required>
+        <div class="input-section">
+            <div class="input-group">
+                <h3>🎵 Individual Song</h3>
+                <input type="url" id="songUrl" placeholder="Paste YouTube video or YouTube Music URL here..." required>
+                <button onclick="extractSong()" id="extractSongBtn">Extract Song</button>
+            </div>
+            
+            <div class="input-group">
+                <h3>📋 Playlist</h3>
+                <input type="url" id="playlistUrl" placeholder="Paste YouTube playlist URL here..." required>
+                <button onclick="extractPlaylist()" id="extractPlaylistBtn">Extract Playlist</button>
+            </div>
         </div>
-        
-        <button onclick="extractMetadata()" id="extractBtn">Process URL</button>
         <button onclick="window.location.href='/library'" class="nav-btn">View Library</button>
         
         <div class="loading" id="loading">
@@ -428,14 +460,59 @@
     </div>
 
     <script>
-        async function extractMetadata() {
-            const url = document.getElementById('youtubeUrl').value.trim();
-            const extractBtn = document.getElementById('extractBtn');
+        async function extractSong() {
+            const url = document.getElementById('songUrl').value.trim();
+            const extractBtn = document.getElementById('extractSongBtn');
             const loading = document.getElementById('loading');
             const result = document.getElementById('result');
             
             if (!url) {
-                showError('Please enter a YouTube URL');
+                showError('Please enter a YouTube video URL');
+                return;
+            }
+            
+            // Show loading
+            extractBtn.disabled = true;
+            loading.style.display = 'block';
+            result.style.display = 'none';
+            
+            try {
+                const response = await fetch('/extract', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ url: url })
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    if (data.type === 'playlist') {
+                        showError('This appears to be a playlist URL. Please use the playlist section below.');
+                    } else {
+                        showResult(data);
+                    }
+                    document.getElementById('songUrl').value = '';
+                } else {
+                    showError(data.error || 'Failed to extract metadata');
+                }
+            } catch (error) {
+                showError('Network error. Please try again.');
+            } finally {
+                extractBtn.disabled = false;
+                loading.style.display = 'none';
+            }
+        }
+        
+        async function extractPlaylist() {
+            const url = document.getElementById('playlistUrl').value.trim();
+            const extractBtn = document.getElementById('extractPlaylistBtn');
+            const loading = document.getElementById('loading');
+            const result = document.getElementById('result');
+            
+            if (!url) {
+                showError('Please enter a YouTube playlist URL');
                 return;
             }
             
@@ -459,9 +536,9 @@
                     if (data.type === 'playlist') {
                         showPlaylistResult(data);
                     } else {
-                        showResult(data);
+                        showError('This appears to be a single video URL. Please use the song section above.');
                     }
-                    document.getElementById('youtubeUrl').value = '';
+                    document.getElementById('playlistUrl').value = '';
                 } else {
                     showError(data.error || 'Failed to extract metadata');
                 }
@@ -542,7 +619,8 @@
         }
         
         function resetForm() {
-            document.getElementById('youtubeUrl').value = '';
+            document.getElementById('songUrl').value = '';
+            document.getElementById('playlistUrl').value = '';
             document.getElementById('result').style.display = 'none';
             window.currentMetadata = null;
         }

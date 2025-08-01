@@ -178,6 +178,23 @@
             background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
         }
 
+        .lyrics-btn {
+            background: linear-gradient(135deg, #28a745 0%, #20c997 100%);
+            color: white;
+            border: none;
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+            margin-left: 5px;
+        }
+
+        .lyrics-btn:hover {
+            transform: translateY(-1px);
+            background: linear-gradient(135deg, #218838 0%, #1ea085 100%);
+        }
+
         .song-actions {
             display: flex;
             align-items: center;
@@ -403,7 +420,8 @@
                     <th>Producer</th>
                     <th>Year</th>
                     <th>Album</th>
-                    <th>Date Added</th>
+                    <th>Lyrics?</th>
+                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
@@ -422,18 +440,33 @@
                                 <a href="{{ song['YouTube URL'] }}" target="_blank" style="color: #667eea; font-size: 0.8rem;">View on YouTube</a>
                                 {% endif %}
                             </div>
-                            <div class="song-actions">
-                                <button class="edit-btn" onclick="editSong('{{ song['YouTube URL'] }}', '{{ song['Title'] }}', '{{ song['Artist'] }}', '{{ song['Producer'] }}', '{{ song['Year'] }}', '{{ song['Album'] }}')">
-                                    ✏️ Edit
-                                </button>
-                            </div>
                         </div>
                     </td>
                     <td class="metadata-cell">{{ song['Artist'] }}</td>
                     <td class="metadata-cell">{{ song['Producer'] or '-' }}</td>
                     <td class="metadata-cell">{{ song['Year'] or '-' }}</td>
                     <td class="metadata-cell">{{ song['Album'] or '-' }}</td>
-                    <td class="metadata-cell">{{ song['Date Added'] }}</td>
+                    <td class="metadata-cell">
+                        {% if song.get('has_lyrics', 0) %}
+                            ✅
+                        {% else %}
+                            ❌
+                        {% endif %}
+                    </td>
+                    <td class="metadata-cell">
+                        <div class="song-actions">
+                            <button class="edit-btn" onclick="editSong('{{ song['YouTube URL'] }}', '{{ song['Title'] }}', '{{ song['Artist'] }}', '{{ song['Producer'] }}', '{{ song['Year'] }}', '{{ song['Album'] }}')">
+                                ✏️ Edit
+                            </button>
+                            <button class="lyrics-btn" onclick="openLyricsModal({{ song['id'] }}, '{{ song['Title'] }}')">
+                                {% if song.get('has_lyrics', 0) %}
+                                    📝 Edit Lyrics
+                                {% else %}
+                                    ➕ Add Lyrics
+                                {% endif %}
+                            </button>
+                        </div>
+                    </td>
                 </tr>
                 {% endfor %}
             </tbody>
@@ -485,6 +518,26 @@
                 <div class="form-actions">
                     <button onclick="saveEditedSong()" class="btn-primary">Save Changes</button>
                     <button onclick="closeEditModal()" class="btn-secondary">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lyrics Modal -->
+    <div class="edit-modal" id="lyricsModal">
+        <div class="edit-modal-content">
+            <div class="edit-modal-header">
+                <h3 id="lyricsModalTitle">Add Lyrics</h3>
+                <button class="close-modal" onclick="closeLyricsModal()">&times;</button>
+            </div>
+            <div class="edit-form">
+                <div class="form-group">
+                    <label for="lyricsTextarea">Lyrics</label>
+                    <textarea id="lyricsTextarea" rows="15" placeholder="Paste the lyrics here..." style="resize: vertical; font-family: monospace;"></textarea>
+                </div>
+                <div class="form-actions">
+                    <button onclick="saveLyrics()" class="btn-primary">Save Lyrics</button>
+                    <button onclick="closeLyricsModal()" class="btn-secondary">Cancel</button>
                 </div>
             </div>
         </div>
@@ -662,6 +715,79 @@
         document.getElementById('editModal').addEventListener('click', function(e) {
             if (e.target === this) {
                 closeEditModal();
+            }
+        });
+
+        // Lyrics functionality
+        let currentLyricsSongId = null;
+
+        async function openLyricsModal(songId, songTitle) {
+            currentLyricsSongId = songId;
+            document.getElementById('lyricsModalTitle').textContent = `Lyrics - ${songTitle}`;
+            
+            try {
+                const response = await fetch(`/get_lyrics/${songId}`);
+                const data = await response.json();
+                
+                if (response.ok) {
+                    document.getElementById('lyricsTextarea').value = data.lyrics || '';
+                } else {
+                    showMessage('Error loading lyrics', 'error');
+                    return;
+                }
+            } catch (error) {
+                showMessage('Network error loading lyrics', 'error');
+                return;
+            }
+            
+            document.getElementById('lyricsModal').classList.add('show');
+        }
+
+        function closeLyricsModal() {
+            document.getElementById('lyricsModal').classList.remove('show');
+            currentLyricsSongId = null;
+            document.getElementById('lyricsTextarea').value = '';
+        }
+
+        async function saveLyrics() {
+            const lyricsText = document.getElementById('lyricsTextarea').value.trim();
+            
+            if (!currentLyricsSongId) {
+                showMessage('No song selected', 'error');
+                return;
+            }
+
+            try {
+                const response = await fetch('/save_lyrics', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        song_id: currentLyricsSongId,
+                        lyrics: lyricsText
+                    })
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    showMessage('Lyrics saved successfully!', 'success');
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 1000);
+                } else {
+                    showMessage(data.error || 'Failed to save lyrics', 'error');
+                }
+            } catch (error) {
+                showMessage('Network error. Please try again.', 'error');
+            }
+        }
+
+        // Close lyrics modal when clicking outside
+        document.getElementById('lyricsModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeLyricsModal();
             }
         });
     </script>

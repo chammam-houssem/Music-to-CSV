@@ -6,8 +6,9 @@ A minimalist web application that extracts metadata from YouTube and YouTube Mus
 
 - 🎵 Extract metadata from YouTube/YouTube Music URLs
 - 📊 Display song information including title, artist, year, album, and cover image
-- 💾 Automatically save metadata to a local CSV file
+- 💾 Automatically save metadata to a local SQLite database
 - 📚 View your complete music library in a clean table format
+- 🎤 Store and edit lyrics for each song with a dedicated modal interface
 - 📱 Responsive design that works on desktop and mobile
 - 🎨 Clean, minimalist interface with modern styling
 
@@ -21,6 +22,7 @@ A minimalist web application that extracts metadata from YouTube and YouTube Mus
 - **Cover Image** - YouTube video thumbnail
 - **YouTube URL** - Original video link
 - **Date Added** - Timestamp when added to library
+- **Lyrics** - User-editable lyrics field with dedicated modal interface
 
 ## Setup
 
@@ -49,11 +51,19 @@ A minimalist web application that extracts metadata from YouTube and YouTube Mus
 2. **View Library:**
    - Click "View Library" to see all your saved songs
    - Browse through your collection with cover images and metadata
+   - Add or edit lyrics for any song using the "Add Lyrics" or "Edit Lyrics" buttons
    - Export your library as a CSV file
 
 3. **Navigation:**
    - Use "Add Another Song" to return to the input screen
    - Use "View Library" to see your complete collection
+
+4. **Lyrics Management:**
+   - Click "Add Lyrics" to add lyrics for a song
+   - Click "Edit Lyrics" to modify existing lyrics
+   - Use the modal interface to paste and edit lyrics
+   - Lyrics are automatically saved to the database
+   - The "Lyrics?" column shows ✅ for songs with lyrics and ❌ for those without
 
 ## Supported URL Formats
 
@@ -67,14 +77,14 @@ A minimalist web application that extracts metadata from YouTube and YouTube Mus
 - `app.py` - Main Flask application
 - `templates/index.html` - Main input page
 - `templates/library.html` - Library display page
-- `music_data.csv` - Local storage file (created automatically)
+- `music_library.db` - SQLite database (created automatically)
 - `requirements.txt` - Python dependencies
 
 ## Technical Details
 
 - **Backend:** Flask (Python)
 - **Frontend:** HTML, CSS, JavaScript
-- **Data Storage:** Local CSV file
+- **Data Storage:** SQLite database with songs and lyrics tables
 - **YouTube API:** Uses YouTube Data API v3 (with oEmbed fallback)
 - **Styling:** Custom CSS with gradient backgrounds and modern design
 

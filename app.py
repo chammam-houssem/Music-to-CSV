@@ -5,17 +5,85 @@ import re
 from datetime import datetime
 import yt_dlp
 from urllib.parse import urlparse, parse_qs
+import sqlite3
+import json
 
 app = Flask(__name__)
 
-# Ensure the CSV file exists
-CSV_FILE = 'music_data.csv'
+# Database configuration
+DATABASE = 'music_library.db'
 
-def ensure_csv_exists():
-    if not os.path.exists(CSV_FILE):
-        with open(CSV_FILE, 'w', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Title', 'Artist', 'Producer', 'Year', 'Album', 'Cover Image', 'YouTube URL', 'Date Added'])
+def init_db():
+    """Initialize the SQLite database with the required tables"""
+    conn = sqlite3.connect(DATABASE)
+    cursor = conn.cursor()
+    
+    # Create songs table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS songs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            title TEXT NOT NULL,
+            artist TEXT NOT NULL,
+            producer TEXT,
+            year TEXT,
+            album TEXT,
+            cover_image TEXT,
+            youtube_url TEXT UNIQUE NOT NULL,
+            date_added TEXT NOT NULL
+        )
+    ''')
+    
+    # Create lyrics table
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS lyrics (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            song_id INTEGER NOT NULL,
+            lyrics_text TEXT NOT NULL,
+            date_added TEXT NOT NULL,
+            FOREIGN KEY (song_id) REFERENCES songs (id)
+        )
+    ''')
+    
+    conn.commit()
+    conn.close()
+
+def get_db_connection():
+    """Get a database connection"""
+    conn = sqlite3.connect(DATABASE)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def migrate_csv_to_sqlite():
+    """Migrate existing CSV data to SQLite if CSV exists"""
+    if os.path.exists('music_data.csv'):
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Check if songs table is empty
+        cursor.execute('SELECT COUNT(*) FROM songs')
+        if cursor.fetchone()[0] == 0:
+            # Migrate CSV data
+            with open('music_data.csv', 'r', newline='', encoding='utf-8') as file:
+                reader = csv.DictReader(file)
+                for row in reader:
+                    cursor.execute('''
+                        INSERT INTO songs (title, artist, producer, year, album, cover_image, youtube_url, date_added)
+                        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+                    ''', (
+                        row['Title'],
+                        row['Artist'],
+                        row['Producer'],
+                        row['Year'],
+                        row['Album'],
+                        row['Cover Image'],
+                        row['YouTube URL'],
+                        row['Date Added']
+                    ))
+            
+            conn.commit()
+            print("Migrated CSV data to SQLite database")
+        
+        conn.close()
 
 def is_playlist_url(url):
     """Check if the URL is a playlist URL"""
@@ -83,39 +151,66 @@ def extract_metadata_with_yt_dlp(url):
         return None
 
 def is_duplicate_song(youtube_url):
-    """Check if a song already exists in the CSV"""
-    try:
-        data = read_csv_data()
-        return any(song['YouTube URL'] == youtube_url for song in data)
-    except:
-        return False
+    """Check if a song already exists in the database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+    cursor.execute('SELECT COUNT(*) FROM songs WHERE youtube_url = ?', (youtube_url,))
+    count = cursor.fetchone()[0]
+    conn.close()
+    return count > 0
 
-def add_to_csv(metadata):
-    """Add metadata to CSV file"""
-    ensure_csv_exists()
+def add_to_database(metadata):
+    """Add metadata to database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
     
-    with open(CSV_FILE, 'a', newline='', encoding='utf-8') as file:
-        writer = csv.writer(file)
-        writer.writerow([
-            metadata['title'],
-            metadata['artist'],
-            metadata['producer'],
-            metadata['year'],
-            metadata['album'],
-            metadata['cover_image'],
-            metadata['youtube_url'],
-            datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        ])
+    cursor.execute('''
+        INSERT INTO songs (title, artist, producer, year, album, cover_image, youtube_url, date_added)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    ''', (
+        metadata['title'],
+        metadata['artist'],
+        metadata['producer'],
+        metadata['year'],
+        metadata['album'],
+        metadata['cover_image'],
+        metadata['youtube_url'],
+        datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    ))
+    
+    conn.commit()
+    conn.close()
 
-def read_csv_data():
-    """Read all data from CSV file"""
-    ensure_csv_exists()
+def read_database_data():
+    """Read all data from database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
     
+    cursor.execute('''
+        SELECT s.*, 
+               CASE WHEN l.id IS NOT NULL THEN 1 ELSE 0 END as has_lyrics
+        FROM songs s
+        LEFT JOIN lyrics l ON s.id = l.song_id
+        ORDER BY s.date_added DESC
+    ''')
+    
+    rows = cursor.fetchall()
     data = []
-    with open(CSV_FILE, 'r', newline='', encoding='utf-8') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            data.append(row)
+    for row in rows:
+        data.append({
+            'id': row['id'],
+            'Title': row['title'],
+            'Artist': row['artist'],
+            'Producer': row['producer'],
+            'Year': row['year'],
+            'Album': row['album'],
+            'Cover Image': row['cover_image'],
+            'YouTube URL': row['youtube_url'],
+            'Date Added': row['date_added'],
+            'has_lyrics': row['has_lyrics']
+        })
+    
+    conn.close()
     return data
 
 @app.route('/')
@@ -132,7 +227,7 @@ def extract_metadata():
     
     if song_data:
         # This is a save request from the frontend form
-        add_to_csv(song_data)
+        add_to_database(song_data)
         return jsonify(song_data)
     
     # This is an extraction request
@@ -142,13 +237,13 @@ def extract_metadata():
         return jsonify({'error': 'Could not extract metadata from this URL. Please check if it\'s a valid YouTube video or playlist.'}), 400
     
     if is_playlist_url(url):
-        # Process playlist: add all songs to CSV
+        # Process playlist: add all songs to database
         processed_songs = []
         skipped_songs = []
         
         for metadata in metadata_list:
             if not is_duplicate_song(metadata['youtube_url']):
-                add_to_csv(metadata)
+                add_to_database(metadata)
                 processed_songs.append(metadata)
             else:
                 skipped_songs.append(metadata['youtube_url'])
@@ -168,7 +263,7 @@ def extract_metadata():
 
 @app.route('/library')
 def library():
-    data = read_csv_data()
+    data = read_database_data()
     
     # Calculate statistics
     unique_artists = len(set(song['Artist'] for song in data))
@@ -178,11 +273,31 @@ def library():
 
 @app.route('/music_data.csv')
 def download_csv():
-    return send_file(CSV_FILE, as_attachment=True, download_name='music_library.csv')
+    # Generate CSV from database
+    data = read_database_data()
+    
+    # Create temporary CSV file
+    temp_csv = 'temp_music_data.csv'
+    with open(temp_csv, 'w', newline='', encoding='utf-8') as file:
+        writer = csv.writer(file)
+        writer.writerow(['Title', 'Artist', 'Producer', 'Year', 'Album', 'Cover Image', 'YouTube URL', 'Date Added'])
+        for song in data:
+            writer.writerow([
+                song['Title'],
+                song['Artist'],
+                song['Producer'],
+                song['Year'],
+                song['Album'],
+                song['Cover Image'],
+                song['YouTube URL'],
+                song['Date Added']
+            ])
+    
+    return send_file(temp_csv, as_attachment=True, download_name='music_library.csv')
 
 @app.route('/update_song', methods=['POST'])
 def update_song():
-    """Update a song in the CSV file"""
+    """Update a song in the database"""
     try:
         data = request.json
         youtube_url = data.get('youtube_url', '')
@@ -191,36 +306,92 @@ def update_song():
         if not youtube_url:
             return jsonify({'error': 'YouTube URL is required'}), 400
         
-        # Read all data from CSV
-        songs = read_csv_data()
+        conn = get_db_connection()
+        cursor = conn.cursor()
         
-        # Find and update the song
-        for song in songs:
-            if song['YouTube URL'] == youtube_url:
-                song.update(updated_data)
-                break
+        # Update the song
+        cursor.execute('''
+            UPDATE songs 
+            SET title = ?, artist = ?, producer = ?, year = ?, album = ?
+            WHERE youtube_url = ?
+        ''', (
+            updated_data.get('title', ''),
+            updated_data.get('artist', ''),
+            updated_data.get('producer', ''),
+            updated_data.get('year', ''),
+            updated_data.get('album', ''),
+            youtube_url
+        ))
         
-        # Write back to CSV
-        with open(CSV_FILE, 'w', newline='', encoding='utf-8') as file:
-            writer = csv.writer(file)
-            writer.writerow(['Title', 'Artist', 'Producer', 'Year', 'Album', 'Cover Image', 'YouTube URL', 'Date Added'])
-            for song in songs:
-                writer.writerow([
-                    song['Title'],
-                    song['Artist'],
-                    song['Producer'],
-                    song['Year'],
-                    song['Album'],
-                    song['Cover Image'],
-                    song['YouTube URL'],
-                    song['Date Added']
-                ])
+        conn.commit()
+        conn.close()
         
         return jsonify({'success': True, 'message': 'Song updated successfully'})
         
     except Exception as e:
         return jsonify({'error': f'Error updating song: {str(e)}'}), 500
 
+@app.route('/get_lyrics/<int:song_id>', methods=['GET'])
+def get_lyrics(song_id):
+    """Get lyrics for a specific song"""
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        cursor.execute('SELECT lyrics_text FROM lyrics WHERE song_id = ?', (song_id,))
+        result = cursor.fetchone()
+        
+        conn.close()
+        
+        if result:
+            return jsonify({'lyrics': result['lyrics_text']})
+        else:
+            return jsonify({'lyrics': ''})
+            
+    except Exception as e:
+        return jsonify({'error': f'Error getting lyrics: {str(e)}'}), 500
+
+@app.route('/save_lyrics', methods=['POST'])
+def save_lyrics():
+    """Save or update lyrics for a song"""
+    try:
+        data = request.json
+        song_id = data.get('song_id')
+        lyrics_text = data.get('lyrics', '').strip()
+        
+        if not song_id:
+            return jsonify({'error': 'Song ID is required'}), 400
+        
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Check if lyrics already exist
+        cursor.execute('SELECT id FROM lyrics WHERE song_id = ?', (song_id,))
+        existing_lyrics = cursor.fetchone()
+        
+        if existing_lyrics:
+            # Update existing lyrics
+            cursor.execute('''
+                UPDATE lyrics 
+                SET lyrics_text = ?, date_added = ?
+                WHERE song_id = ?
+            ''', (lyrics_text, datetime.now().strftime('%Y-%m-%d %H:%M:%S'), song_id))
+        else:
+            # Insert new lyrics
+            cursor.execute('''
+                INSERT INTO lyrics (song_id, lyrics_text, date_added)
+                VALUES (?, ?, ?)
+            ''', (song_id, lyrics_text, datetime.now().strftime('%Y-%m-%d %H:%M:%S')))
+        
+        conn.commit()
+        conn.close()
+        
+        return jsonify({'success': True, 'message': 'Lyrics saved successfully'})
+        
+    except Exception as e:
+        return jsonify({'error': f'Error saving lyrics: {str(e)}'}), 500
+
 if __name__ == '__main__':
-    ensure_csv_exists()
+    init_db()
+    migrate_csv_to_sqlite()
     app.run(debug=True, host='0.0.0.0', port=5000) 
