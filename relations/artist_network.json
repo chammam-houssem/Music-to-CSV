@@ -1,0 +1,2706 @@
+{
+  "nodes": [
+    {
+      "id": "Freddie Gibbs",
+      "collaborations": 2,
+      "label": "Freddie Gibbs"
+    },
+    {
+      "id": "Pas Comme Eux",
+      "collaborations": 14,
+      "label": "Pas Comme Eux"
+    },
+    {
+      "id": "Wingz",
+      "collaborations": 19,
+      "label": "Wingz"
+    },
+    {
+      "id": "FIJO",
+      "collaborations": 2,
+      "label": "FIJO"
+    },
+    {
+      "id": "DJ Psyico",
+      "collaborations": 1,
+      "label": "DJ Psyico"
+    },
+    {
+      "id": "DON PAC",
+      "collaborations": 1,
+      "label": "DON PAC"
+    },
+    {
+      "id": "YUNGMORPHEUS",
+      "collaborations": 2,
+      "label": "YUNGMORPHEUS"
+    },
+    {
+      "id": "Trappa",
+      "collaborations": 3,
+      "label": "Trappa"
+    },
+    {
+      "id": "Mizo-H",
+      "collaborations": 4,
+      "label": "Mizo-H"
+    },
+    {
+      "id": "Cuzama",
+      "collaborations": 2,
+      "label": "Cuzama"
+    },
+    {
+      "id": "BigSeno",
+      "collaborations": 2,
+      "label": "BigSeno"
+    },
+    {
+      "id": "prodby2g",
+      "collaborations": 2,
+      "label": "prodby2g"
+    },
+    {
+      "id": "Pazaman",
+      "collaborations": 3,
+      "label": "Pazaman"
+    },
+    {
+      "id": "Feddini",
+      "collaborations": 1,
+      "label": "Feddini"
+    },
+    {
+      "id": "EMP1RE",
+      "collaborations": 1,
+      "label": "EMP1RE"
+    },
+    {
+      "id": "Explicite",
+      "collaborations": 4,
+      "label": "Explicite"
+    },
+    {
+      "id": "EARTHGANG",
+      "collaborations": 2,
+      "label": "EARTHGANG"
+    },
+    {
+      "id": "Ta9chira",
+      "collaborations": 6,
+      "label": "Ta9chira"
+    },
+    {
+      "id": "Stou",
+      "collaborations": 2,
+      "label": "Stou"
+    },
+    {
+      "id": "It's ERROR",
+      "collaborations": 5,
+      "label": "It's ERROR"
+    },
+    {
+      "id": "Icxn",
+      "collaborations": 4,
+      "label": "Icxn"
+    },
+    {
+      "id": "Saba",
+      "collaborations": 1,
+      "label": "Saba"
+    },
+    {
+      "id": "Fresh",
+      "collaborations": 1,
+      "label": "Fresh"
+    },
+    {
+      "id": "A.L.A",
+      "collaborations": 7,
+      "label": "A.L.A"
+    },
+    {
+      "id": "Al Nather",
+      "collaborations": 1,
+      "label": "Al Nather"
+    },
+    {
+      "id": "DvrkBoy",
+      "collaborations": 12,
+      "label": "DvrkBoy"
+    },
+    {
+      "id": "Belhadj",
+      "collaborations": 1,
+      "label": "Belhadj"
+    },
+    {
+      "id": "Lakoud",
+      "collaborations": 2,
+      "label": "Lakoud"
+    },
+    {
+      "id": "GOUCHI",
+      "collaborations": 4,
+      "label": "GOUCHI"
+    },
+    {
+      "id": "Z24 MEGAMIND",
+      "collaborations": 2,
+      "label": "Z24 MEGAMIND"
+    },
+    {
+      "id": "Kyng Hooper",
+      "collaborations": 2,
+      "label": "Kyng Hooper"
+    },
+    {
+      "id": "Calhoven",
+      "collaborations": 1,
+      "label": "Calhoven"
+    },
+    {
+      "id": "Conway the Machine",
+      "collaborations": 2,
+      "label": "Conway the Machine"
+    },
+    {
+      "id": "Galaleo",
+      "collaborations": 1,
+      "label": "Galaleo"
+    },
+    {
+      "id": "Mahdy Madness",
+      "collaborations": 1,
+      "label": "Mahdy Madness"
+    },
+    {
+      "id": "SAFFWIZZ",
+      "collaborations": 25,
+      "label": "SAFFWIZZ"
+    },
+    {
+      "id": "BVNGBELV",
+      "collaborations": 1,
+      "label": "BVNGBELV"
+    },
+    {
+      "id": "Stxev Abdiov",
+      "collaborations": 3,
+      "label": "Stxev Abdiov"
+    },
+    {
+      "id": "Erkez Hiphop",
+      "collaborations": 2,
+      "label": "Erkez Hiphop"
+    },
+    {
+      "id": "XIIVI",
+      "collaborations": 19,
+      "label": "XIIVI"
+    },
+    {
+      "id": "Fossa",
+      "collaborations": 14,
+      "label": "Fossa"
+    },
+    {
+      "id": "Gas",
+      "collaborations": 2,
+      "label": "Gas"
+    },
+    {
+      "id": "Sanfara",
+      "collaborations": 2,
+      "label": "Sanfara"
+    },
+    {
+      "id": "billy woods",
+      "collaborations": 4,
+      "label": "billy woods"
+    },
+    {
+      "id": "NORDO",
+      "collaborations": 2,
+      "label": "NORDO"
+    },
+    {
+      "id": "John Mayer",
+      "collaborations": 1,
+      "label": "John Mayer"
+    },
+    {
+      "id": "Selim Arjoun",
+      "collaborations": 2,
+      "label": "Selim Arjoun"
+    },
+    {
+      "id": "Boldy James",
+      "collaborations": 2,
+      "label": "Boldy James"
+    },
+    {
+      "id": "Madou Mc",
+      "collaborations": 6,
+      "label": "Madou Mc"
+    },
+    {
+      "id": "Taymour",
+      "collaborations": 1,
+      "label": "Taymour"
+    },
+    {
+      "id": "HbibzGang",
+      "collaborations": 3,
+      "label": "HbibzGang"
+    },
+    {
+      "id": "J. Cole",
+      "collaborations": 2,
+      "label": "J. Cole"
+    },
+    {
+      "id": "1da-Toul",
+      "collaborations": 12,
+      "label": "1da-Toul"
+    },
+    {
+      "id": "Pureconic",
+      "collaborations": 2,
+      "label": "Pureconic"
+    },
+    {
+      "id": "Roc Marciano",
+      "collaborations": 1,
+      "label": "Roc Marciano"
+    },
+    {
+      "id": "Blingos",
+      "collaborations": 1,
+      "label": "Blingos"
+    },
+    {
+      "id": "L2",
+      "collaborations": 14,
+      "label": "L2"
+    },
+    {
+      "id": "666GNG",
+      "collaborations": 3,
+      "label": "666GNG"
+    },
+    {
+      "id": "No ID",
+      "collaborations": 1,
+      "label": "No ID"
+    },
+    {
+      "id": "DJ Hrizen",
+      "collaborations": 5,
+      "label": "DJ Hrizen"
+    },
+    {
+      "id": "4lfa",
+      "collaborations": 12,
+      "label": "4lfa"
+    },
+    {
+      "id": "Cheb terro",
+      "collaborations": 7,
+      "label": "Cheb terro"
+    },
+    {
+      "id": "Trax",
+      "collaborations": 5,
+      "label": "Trax"
+    },
+    {
+      "id": "Soldjvt",
+      "collaborations": 1,
+      "label": "Soldjvt"
+    },
+    {
+      "id": "Rowlan",
+      "collaborations": 2,
+      "label": "Rowlan"
+    },
+    {
+      "id": "Tiga Blackna",
+      "collaborations": 2,
+      "label": "Tiga Blackna"
+    },
+    {
+      "id": "Halim yousfi",
+      "collaborations": 2,
+      "label": "Halim yousfi"
+    },
+    {
+      "id": "Jon Connor",
+      "collaborations": 2,
+      "label": "Jon Connor"
+    },
+    {
+      "id": "Neima Ezza",
+      "collaborations": 2,
+      "label": "Neima Ezza"
+    },
+    {
+      "id": "Stove God Cooks",
+      "collaborations": 3,
+      "label": "Stove God Cooks"
+    },
+    {
+      "id": "Myne",
+      "collaborations": 1,
+      "label": "Myne"
+    },
+    {
+      "id": "K-2ouj",
+      "collaborations": 2,
+      "label": "K-2ouj"
+    },
+    {
+      "id": "G.G.A",
+      "collaborations": 2,
+      "label": "G.G.A"
+    },
+    {
+      "id": "ZDEFF",
+      "collaborations": 1,
+      "label": "ZDEFF"
+    },
+    {
+      "id": "Abdeelgha4",
+      "collaborations": 1,
+      "label": "Abdeelgha4"
+    },
+    {
+      "id": "BAYA",
+      "collaborations": 2,
+      "label": "BAYA"
+    },
+    {
+      "id": "prodby444",
+      "collaborations": 2,
+      "label": "prodby444"
+    },
+    {
+      "id": "NAD",
+      "collaborations": 5,
+      "label": "NAD"
+    },
+    {
+      "id": "Earl Sweatshirt",
+      "collaborations": 1,
+      "label": "Earl Sweatshirt"
+    },
+    {
+      "id": "JID",
+      "collaborations": 2,
+      "label": "JID"
+    },
+    {
+      "id": "Danny Brown",
+      "collaborations": 2,
+      "label": "Danny Brown"
+    },
+    {
+      "id": "Ussef",
+      "collaborations": 1,
+      "label": "Ussef"
+    },
+    {
+      "id": "Ktyb",
+      "collaborations": 13,
+      "label": "Ktyb"
+    },
+    {
+      "id": "RARE",
+      "collaborations": 5,
+      "label": "RARE"
+    },
+    {
+      "id": "Mahdi Machfar",
+      "collaborations": 2,
+      "label": "Mahdi Machfar"
+    },
+    {
+      "id": "Ratacid",
+      "collaborations": 2,
+      "label": "Ratacid"
+    },
+    {
+      "id": "Tripdoors",
+      "collaborations": 1,
+      "label": "Tripdoors"
+    },
+    {
+      "id": "El Ayo",
+      "collaborations": 2,
+      "label": "El Ayo"
+    },
+    {
+      "id": "Larry June",
+      "collaborations": 2,
+      "label": "Larry June"
+    },
+    {
+      "id": "TOXICOLOGY LABEL",
+      "collaborations": 2,
+      "label": "TOXICOLOGY LABEL"
+    },
+    {
+      "id": "Katori Walker",
+      "collaborations": 2,
+      "label": "Katori Walker"
+    },
+    {
+      "id": "El Castro",
+      "collaborations": 5,
+      "label": "El Castro"
+    },
+    {
+      "id": "Black T",
+      "collaborations": 1,
+      "label": "Black T"
+    },
+    {
+      "id": "TIF",
+      "collaborations": 1,
+      "label": "TIF"
+    },
+    {
+      "id": "WECIM",
+      "collaborations": 3,
+      "label": "WECIM"
+    },
+    {
+      "id": "Artmasta",
+      "collaborations": 1,
+      "label": "Artmasta"
+    },
+    {
+      "id": "LoopLion",
+      "collaborations": 2,
+      "label": "LoopLion"
+    },
+    {
+      "id": "Vipa",
+      "collaborations": 11,
+      "label": "Vipa"
+    },
+    {
+      "id": "Eccentic",
+      "collaborations": 3,
+      "label": "Eccentic"
+    },
+    {
+      "id": "Mouka",
+      "collaborations": 1,
+      "label": "Mouka"
+    },
+    {
+      "id": "Samara",
+      "collaborations": 5,
+      "label": "Samara"
+    },
+    {
+      "id": "Defame",
+      "collaborations": 2,
+      "label": "Defame"
+    },
+    {
+      "id": "Koast",
+      "collaborations": 3,
+      "label": "Koast"
+    },
+    {
+      "id": "Matsuda",
+      "collaborations": 2,
+      "label": "Matsuda"
+    },
+    {
+      "id": "VRITRA",
+      "collaborations": 2,
+      "label": "VRITRA"
+    },
+    {
+      "id": "Young Rz",
+      "collaborations": 1,
+      "label": "Young Rz"
+    },
+    {
+      "id": "Catcher",
+      "collaborations": 12,
+      "label": "Catcher"
+    },
+    {
+      "id": "noise",
+      "collaborations": 2,
+      "label": "noise"
+    },
+    {
+      "id": "Curren$y",
+      "collaborations": 4,
+      "label": "Curren$y"
+    },
+    {
+      "id": "Harry Fraud",
+      "collaborations": 2,
+      "label": "Harry Fraud"
+    },
+    {
+      "id": "Samuel T. Herring",
+      "collaborations": 2,
+      "label": "Samuel T. Herring"
+    },
+    {
+      "id": "HTB",
+      "collaborations": 6,
+      "label": "HTB"
+    },
+    {
+      "id": "Zaineb",
+      "collaborations": 1,
+      "label": "Zaineb"
+    },
+    {
+      "id": "Flenn",
+      "collaborations": 1,
+      "label": "Flenn"
+    },
+    {
+      "id": "Methlab",
+      "collaborations": 5,
+      "label": "Methlab"
+    },
+    {
+      "id": "GAL3Y",
+      "collaborations": 7,
+      "label": "GAL3Y"
+    },
+    {
+      "id": "Snoopy the highest",
+      "collaborations": 3,
+      "label": "Snoopy the highest"
+    },
+    {
+      "id": "NVST",
+      "collaborations": 2,
+      "label": "NVST"
+    },
+    {
+      "id": "Tabac Roule",
+      "collaborations": 2,
+      "label": "Tabac Roule"
+    },
+    {
+      "id": "Shvdy",
+      "collaborations": 4,
+      "label": "Shvdy"
+    },
+    {
+      "id": "DJ Die Soon",
+      "collaborations": 1,
+      "label": "DJ Die Soon"
+    },
+    {
+      "id": "Sharifa Jamal",
+      "collaborations": 1,
+      "label": "Sharifa Jamal"
+    },
+    {
+      "id": "FIN",
+      "collaborations": 4,
+      "label": "FIN"
+    },
+    {
+      "id": "Dhalma",
+      "collaborations": 2,
+      "label": "Dhalma"
+    },
+    {
+      "id": "DACHI",
+      "collaborations": 8,
+      "label": "DACHI"
+    },
+    {
+      "id": "Namiro",
+      "collaborations": 5,
+      "label": "Namiro"
+    },
+    {
+      "id": "Pink Siifu",
+      "collaborations": 2,
+      "label": "Pink Siifu"
+    },
+    {
+      "id": "M.A",
+      "collaborations": 5,
+      "label": "M.A"
+    },
+    {
+      "id": "20fyee",
+      "collaborations": 7,
+      "label": "20fyee"
+    },
+    {
+      "id": "OXYJHIN",
+      "collaborations": 4,
+      "label": "OXYJHIN"
+    },
+    {
+      "id": "SALTY TEA",
+      "collaborations": 1,
+      "label": "SALTY TEA"
+    },
+    {
+      "id": "BL made it",
+      "collaborations": 2,
+      "label": "BL made it"
+    },
+    {
+      "id": "Blanka",
+      "collaborations": 1,
+      "label": "Blanka"
+    },
+    {
+      "id": "Kiev",
+      "collaborations": 3,
+      "label": "Kiev"
+    },
+    {
+      "id": "Brotherhood Family",
+      "collaborations": 4,
+      "label": "Brotherhood Family"
+    },
+    {
+      "id": "Linko",
+      "collaborations": 1,
+      "label": "Linko"
+    },
+    {
+      "id": "7Baby",
+      "collaborations": 11,
+      "label": "7Baby"
+    },
+    {
+      "id": "SIXBOI",
+      "collaborations": 3,
+      "label": "SIXBOI"
+    },
+    {
+      "id": "M.S.I",
+      "collaborations": 1,
+      "label": "M.S.I"
+    },
+    {
+      "id": "Frank Ocean",
+      "collaborations": 1,
+      "label": "Frank Ocean"
+    },
+    {
+      "id": "NASTYSH!!T",
+      "collaborations": 3,
+      "label": "NASTYSH!!T"
+    },
+    {
+      "id": "USCHIHA",
+      "collaborations": 1,
+      "label": "USCHIHA"
+    },
+    {
+      "id": "90s Shawty",
+      "collaborations": 1,
+      "label": "90s Shawty"
+    },
+    {
+      "id": "Westside Gunn",
+      "collaborations": 2,
+      "label": "Westside Gunn"
+    },
+    {
+      "id": "Amir Eid",
+      "collaborations": 1,
+      "label": "Amir Eid"
+    },
+    {
+      "id": "$MXTI",
+      "collaborations": 20,
+      "label": "$MXTI"
+    },
+    {
+      "id": "KHLNZYY",
+      "collaborations": 2,
+      "label": "KHLNZYY"
+    },
+    {
+      "id": "khadhraoui ghaith",
+      "collaborations": 1,
+      "label": "khadhraoui ghaith"
+    },
+    {
+      "id": "Bo9al",
+      "collaborations": 1,
+      "label": "Bo9al"
+    },
+    {
+      "id": "underrateDAN",
+      "collaborations": 3,
+      "label": "underrateDAN"
+    },
+    {
+      "id": "Ily",
+      "collaborations": 1,
+      "label": "Ily"
+    },
+    {
+      "id": "Omara",
+      "collaborations": 18,
+      "label": "Omara"
+    },
+    {
+      "id": "John Six",
+      "collaborations": 5,
+      "label": "John Six"
+    },
+    {
+      "id": "Junior",
+      "collaborations": 1,
+      "label": "Junior"
+    },
+    {
+      "id": "RamsJamsss",
+      "collaborations": 5,
+      "label": "RamsJamsss"
+    },
+    {
+      "id": "DEJ",
+      "collaborations": 3,
+      "label": "DEJ"
+    },
+    {
+      "id": "FrenchSo Beats",
+      "collaborations": 1,
+      "label": "FrenchSo Beats"
+    },
+    {
+      "id": "Lil' K",
+      "collaborations": 1,
+      "label": "Lil' K"
+    },
+    {
+      "id": "Ratchopper",
+      "collaborations": 9,
+      "label": "Ratchopper"
+    },
+    {
+      "id": "Flucci",
+      "collaborations": 2,
+      "label": "Flucci"
+    },
+    {
+      "id": "Bloody",
+      "collaborations": 3,
+      "label": "Bloody"
+    },
+    {
+      "id": "Zeltron",
+      "collaborations": 2,
+      "label": "Zeltron"
+    },
+    {
+      "id": "Didou Parisien",
+      "collaborations": 1,
+      "label": "Didou Parisien"
+    },
+    {
+      "id": "Aymen Lessigue",
+      "collaborations": 1,
+      "label": "Aymen Lessigue"
+    },
+    {
+      "id": "R2LF5",
+      "collaborations": 1,
+      "label": "R2LF5"
+    },
+    {
+      "id": "Naqqa",
+      "collaborations": 3,
+      "label": "Naqqa"
+    },
+    {
+      "id": "BAD KA$H",
+      "collaborations": 7,
+      "label": "BAD KA$H"
+    },
+    {
+      "id": "Lakrush",
+      "collaborations": 1,
+      "label": "Lakrush"
+    },
+    {
+      "id": "Donga",
+      "collaborations": 4,
+      "label": "Donga"
+    },
+    {
+      "id": "Draganov",
+      "collaborations": 2,
+      "label": "Draganov"
+    },
+    {
+      "id": "MARROUKI",
+      "collaborations": 4,
+      "label": "MARROUKI"
+    },
+    {
+      "id": "Malik Shtarac",
+      "collaborations": 2,
+      "label": "Malik Shtarac"
+    },
+    {
+      "id": "KADDY",
+      "collaborations": 1,
+      "label": "KADDY"
+    },
+    {
+      "id": "Noor Arjoun",
+      "collaborations": 2,
+      "label": "Noor Arjoun"
+    },
+    {
+      "id": "La Fine Equipe",
+      "collaborations": 1,
+      "label": "La Fine Equipe"
+    },
+    {
+      "id": "dopeman",
+      "collaborations": 7,
+      "label": "dopeman"
+    },
+    {
+      "id": "JenJoon",
+      "collaborations": 3,
+      "label": "JenJoon"
+    },
+    {
+      "id": "Gharga",
+      "collaborations": 1,
+      "label": "Gharga"
+    },
+    {
+      "id": "OhSlim",
+      "collaborations": 4,
+      "label": "OhSlim"
+    },
+    {
+      "id": "Dryveins",
+      "collaborations": 4,
+      "label": "Dryveins"
+    },
+    {
+      "id": "Kenny Segal",
+      "collaborations": 4,
+      "label": "Kenny Segal"
+    },
+    {
+      "id": "ShrapKnel",
+      "collaborations": 2,
+      "label": "ShrapKnel"
+    },
+    {
+      "id": "Sc Papi",
+      "collaborations": 1,
+      "label": "Sc Papi"
+    },
+    {
+      "id": "Tchiggy",
+      "collaborations": 3,
+      "label": "Tchiggy"
+    },
+    {
+      "id": "DAMAXGE",
+      "collaborations": 5,
+      "label": "DAMAXGE"
+    },
+    {
+      "id": "The Alchemist",
+      "collaborations": 7,
+      "label": "The Alchemist"
+    },
+    {
+      "id": "Katybon",
+      "collaborations": 3,
+      "label": "Katybon"
+    },
+    {
+      "id": "MystikGod",
+      "collaborations": 3,
+      "label": "MystikGod"
+    },
+    {
+      "id": "LUAS",
+      "collaborations": 3,
+      "label": "LUAS"
+    },
+    {
+      "id": "Mahdigreb",
+      "collaborations": 4,
+      "label": "Mahdigreb"
+    },
+    {
+      "id": "Dawan",
+      "collaborations": 2,
+      "label": "Dawan"
+    },
+    {
+      "id": "ElMassi",
+      "collaborations": 1,
+      "label": "ElMassi"
+    },
+    {
+      "id": "Shabjdeed",
+      "collaborations": 1,
+      "label": "Shabjdeed"
+    },
+    {
+      "id": "Hamdi Ryder",
+      "collaborations": 2,
+      "label": "Hamdi Ryder"
+    },
+    {
+      "id": "BAXV",
+      "collaborations": 10,
+      "label": "BAXV"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Cheb terro",
+      "target": "DJ Hrizen",
+      "weight": 27
+    },
+    {
+      "source": "KADDY",
+      "target": "Mahdy Madness",
+      "weight": 2
+    },
+    {
+      "source": "SALTY TEA",
+      "target": "ZDEFF",
+      "weight": 2
+    },
+    {
+      "source": "GAL3Y",
+      "target": "SAFFWIZZ",
+      "weight": 5
+    },
+    {
+      "source": "EARTHGANG",
+      "target": "JID",
+      "weight": 3
+    },
+    {
+      "source": "EARTHGANG",
+      "target": "J. Cole",
+      "weight": 3
+    },
+    {
+      "source": "J. Cole",
+      "target": "JID",
+      "weight": 3
+    },
+    {
+      "source": "Blanka",
+      "target": "La Fine Equipe",
+      "weight": 2
+    },
+    {
+      "source": "Frank Ocean",
+      "target": "John Mayer",
+      "weight": 2
+    },
+    {
+      "source": "Amir Eid",
+      "target": "Galaleo",
+      "weight": 2
+    },
+    {
+      "source": "Al Nather",
+      "target": "Shabjdeed",
+      "weight": 2
+    },
+    {
+      "source": "Curren$y",
+      "target": "Harry Fraud",
+      "weight": 3
+    },
+    {
+      "source": "Curren$y",
+      "target": "Larry June",
+      "weight": 3
+    },
+    {
+      "source": "Harry Fraud",
+      "target": "Larry June",
+      "weight": 3
+    },
+    {
+      "source": "DJ Psyico",
+      "target": "Didou Parisien",
+      "weight": 2
+    },
+    {
+      "source": "Kenny Segal",
+      "target": "billy woods",
+      "weight": 13
+    },
+    {
+      "source": "Danny Brown",
+      "target": "billy woods",
+      "weight": 3
+    },
+    {
+      "source": "Danny Brown",
+      "target": "Kenny Segal",
+      "weight": 3
+    },
+    {
+      "source": "Samuel T. Herring",
+      "target": "billy woods",
+      "weight": 3
+    },
+    {
+      "source": "Kenny Segal",
+      "target": "Samuel T. Herring",
+      "weight": 3
+    },
+    {
+      "source": "No ID",
+      "target": "Saba",
+      "weight": 2
+    },
+    {
+      "source": "Erkez Hiphop",
+      "target": "Tiga Blackna",
+      "weight": 3
+    },
+    {
+      "source": "Erkez Hiphop",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "Tiga Blackna",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "Ktyb",
+      "target": "Madou Mc",
+      "weight": 3
+    },
+    {
+      "source": "Flucci",
+      "target": "Madou Mc",
+      "weight": 3
+    },
+    {
+      "source": "Flucci",
+      "target": "Ktyb",
+      "weight": 3
+    },
+    {
+      "source": "Dawan",
+      "target": "Madou Mc",
+      "weight": 3
+    },
+    {
+      "source": "Madou Mc",
+      "target": "Trax",
+      "weight": 3
+    },
+    {
+      "source": "Dawan",
+      "target": "Trax",
+      "weight": 3
+    },
+    {
+      "source": "Madou Mc",
+      "target": "Malik Shtarac",
+      "weight": 3
+    },
+    {
+      "source": "Madou Mc",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "Malik Shtarac",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "Cheb terro",
+      "target": "Dryveins",
+      "weight": 2
+    },
+    {
+      "source": "Dryveins",
+      "target": "Omara",
+      "weight": 2
+    },
+    {
+      "source": "RamsJamsss",
+      "target": "SAFFWIZZ",
+      "weight": 2
+    },
+    {
+      "source": "BAXV",
+      "target": "Wingz",
+      "weight": 15
+    },
+    {
+      "source": "Wingz",
+      "target": "XIIVI",
+      "weight": 29
+    },
+    {
+      "source": "BAXV",
+      "target": "XIIVI",
+      "weight": 21
+    },
+    {
+      "source": "$MXTI",
+      "target": "Dryveins",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "BAXV",
+      "weight": 8
+    },
+    {
+      "source": "BAXV",
+      "target": "Dryveins",
+      "weight": 3
+    },
+    {
+      "source": "Halim yousfi",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "Kyng Hooper",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "Halim yousfi",
+      "target": "Kyng Hooper",
+      "weight": 3
+    },
+    {
+      "source": "Koast",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "Naqqa",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "Ratchopper",
+      "target": "SAFFWIZZ",
+      "weight": 6
+    },
+    {
+      "source": "Koast",
+      "target": "Naqqa",
+      "weight": 4
+    },
+    {
+      "source": "Koast",
+      "target": "Ratchopper",
+      "weight": 4
+    },
+    {
+      "source": "Naqqa",
+      "target": "Ratchopper",
+      "weight": 4
+    },
+    {
+      "source": "Roc Marciano",
+      "target": "Stove God Cooks",
+      "weight": 2
+    },
+    {
+      "source": "Boldy James",
+      "target": "The Alchemist",
+      "weight": 3
+    },
+    {
+      "source": "Boldy James",
+      "target": "Stove God Cooks",
+      "weight": 3
+    },
+    {
+      "source": "Stove God Cooks",
+      "target": "The Alchemist",
+      "weight": 3
+    },
+    {
+      "source": "Tabac Roule",
+      "target": "XIIVI",
+      "weight": 3
+    },
+    {
+      "source": "It's ERROR",
+      "target": "Tabac Roule",
+      "weight": 3
+    },
+    {
+      "source": "It's ERROR",
+      "target": "XIIVI",
+      "weight": 3
+    },
+    {
+      "source": "ShrapKnel",
+      "target": "billy woods",
+      "weight": 3
+    },
+    {
+      "source": "Kenny Segal",
+      "target": "ShrapKnel",
+      "weight": 3
+    },
+    {
+      "source": "Cheb terro",
+      "target": "Ratchopper",
+      "weight": 3
+    },
+    {
+      "source": "Cheb terro",
+      "target": "Hamdi Ryder",
+      "weight": 3
+    },
+    {
+      "source": "Hamdi Ryder",
+      "target": "Ratchopper",
+      "weight": 3
+    },
+    {
+      "source": "Feddini",
+      "target": "Ktyb",
+      "weight": 24
+    },
+    {
+      "source": "Flenn",
+      "target": "TIF",
+      "weight": 2
+    },
+    {
+      "source": "20fyee",
+      "target": "XIIVI",
+      "weight": 8
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "XIIVI",
+      "weight": 34
+    },
+    {
+      "source": "20fyee",
+      "target": "Pas Comme Eux",
+      "weight": 8
+    },
+    {
+      "source": "BAXV",
+      "target": "USCHIHA",
+      "weight": 2
+    },
+    {
+      "source": "Pink Siifu",
+      "target": "YUNGMORPHEUS",
+      "weight": 3
+    },
+    {
+      "source": "Pink Siifu",
+      "target": "VRITRA",
+      "weight": 3
+    },
+    {
+      "source": "VRITRA",
+      "target": "YUNGMORPHEUS",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "Cheb terro",
+      "weight": 7
+    },
+    {
+      "source": "Defame",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "Icxn",
+      "target": "SAFFWIZZ",
+      "weight": 5
+    },
+    {
+      "source": "Defame",
+      "target": "Icxn",
+      "weight": 3
+    },
+    {
+      "source": "HTB",
+      "target": "MARROUKI",
+      "weight": 4
+    },
+    {
+      "source": "Conway the Machine",
+      "target": "Westside Gunn",
+      "weight": 3
+    },
+    {
+      "source": "The Alchemist",
+      "target": "Westside Gunn",
+      "weight": 3
+    },
+    {
+      "source": "Conway the Machine",
+      "target": "The Alchemist",
+      "weight": 3
+    },
+    {
+      "source": "Curren$y",
+      "target": "Freddie Gibbs",
+      "weight": 3
+    },
+    {
+      "source": "Curren$y",
+      "target": "The Alchemist",
+      "weight": 3
+    },
+    {
+      "source": "Freddie Gibbs",
+      "target": "The Alchemist",
+      "weight": 3
+    },
+    {
+      "source": "Earl Sweatshirt",
+      "target": "The Alchemist",
+      "weight": 2
+    },
+    {
+      "source": "Jon Connor",
+      "target": "Rowlan",
+      "weight": 3
+    },
+    {
+      "source": "Katori Walker",
+      "target": "Rowlan",
+      "weight": 3
+    },
+    {
+      "source": "Jon Connor",
+      "target": "Katori Walker",
+      "weight": 3
+    },
+    {
+      "source": "Kiev",
+      "target": "Wingz",
+      "weight": 11
+    },
+    {
+      "source": "Kiev",
+      "target": "XIIVI",
+      "weight": 3
+    },
+    {
+      "source": "BAXV",
+      "target": "KHLNZYY",
+      "weight": 2
+    },
+    {
+      "source": "FIN",
+      "target": "XIIVI",
+      "weight": 2
+    },
+    {
+      "source": "4lfa",
+      "target": "Ta9chira",
+      "weight": 14
+    },
+    {
+      "source": "Brotherhood Family",
+      "target": "Ta9chira",
+      "weight": 12
+    },
+    {
+      "source": "Ktyb",
+      "target": "Ta9chira",
+      "weight": 12
+    },
+    {
+      "source": "4lfa",
+      "target": "Brotherhood Family",
+      "weight": 15
+    },
+    {
+      "source": "4lfa",
+      "target": "Ktyb",
+      "weight": 17
+    },
+    {
+      "source": "Brotherhood Family",
+      "target": "Ktyb",
+      "weight": 12
+    },
+    {
+      "source": "Cheb terro",
+      "target": "Taymour",
+      "weight": 2
+    },
+    {
+      "source": "ElMassi",
+      "target": "Vipa",
+      "weight": 2
+    },
+    {
+      "source": "FIN",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "BAXV",
+      "target": "FIN",
+      "weight": 3
+    },
+    {
+      "source": "GAL3Y",
+      "target": "Vipa",
+      "weight": 2
+    },
+    {
+      "source": "WECIM",
+      "target": "khadhraoui ghaith",
+      "weight": 2
+    },
+    {
+      "source": "BVNGBELV",
+      "target": "KHLNZYY",
+      "weight": 2
+    },
+    {
+      "source": "Katybon",
+      "target": "Vipa",
+      "weight": 6
+    },
+    {
+      "source": "Katybon",
+      "target": "Pazaman",
+      "weight": 4
+    },
+    {
+      "source": "Katybon",
+      "target": "Trappa",
+      "weight": 4
+    },
+    {
+      "source": "Pazaman",
+      "target": "Vipa",
+      "weight": 4
+    },
+    {
+      "source": "Trappa",
+      "target": "Vipa",
+      "weight": 4
+    },
+    {
+      "source": "Pazaman",
+      "target": "Trappa",
+      "weight": 4
+    },
+    {
+      "source": "G.G.A",
+      "target": "Samara",
+      "weight": 2
+    },
+    {
+      "source": "Fossa",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "Donga",
+      "target": "Wingz",
+      "weight": 18
+    },
+    {
+      "source": "Donga",
+      "target": "Fossa",
+      "weight": 3
+    },
+    {
+      "source": "4lfa",
+      "target": "Ratchopper",
+      "weight": 2
+    },
+    {
+      "source": "$MXTI",
+      "target": "DJ Hrizen",
+      "weight": 3
+    },
+    {
+      "source": "G.G.A",
+      "target": "M.S.I",
+      "weight": 2
+    },
+    {
+      "source": "$MXTI",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "Mahdigreb",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "Mahdigreb",
+      "weight": 3
+    },
+    {
+      "source": "DON PAC",
+      "target": "Ktyb",
+      "weight": 2
+    },
+    {
+      "source": "JenJoon",
+      "target": "Sharifa Jamal",
+      "weight": 2
+    },
+    {
+      "source": "4lfa",
+      "target": "Mahdi Machfar",
+      "weight": 3
+    },
+    {
+      "source": "Ktyb",
+      "target": "Mahdi Machfar",
+      "weight": 3
+    },
+    {
+      "source": "A.L.A",
+      "target": "Ktyb",
+      "weight": 3
+    },
+    {
+      "source": "John Six",
+      "target": "Ktyb",
+      "weight": 16
+    },
+    {
+      "source": "A.L.A",
+      "target": "John Six",
+      "weight": 3
+    },
+    {
+      "source": "EMP1RE",
+      "target": "Ktyb",
+      "weight": 2
+    },
+    {
+      "source": "Ktyb",
+      "target": "NORDO",
+      "weight": 3
+    },
+    {
+      "source": "John Six",
+      "target": "NORDO",
+      "weight": 3
+    },
+    {
+      "source": "4lfa",
+      "target": "JenJoon",
+      "weight": 2
+    },
+    {
+      "source": "GAL3Y",
+      "target": "Ktyb",
+      "weight": 2
+    },
+    {
+      "source": "Brotherhood Family",
+      "target": "Stou",
+      "weight": 3
+    },
+    {
+      "source": "4lfa",
+      "target": "Stou",
+      "weight": 3
+    },
+    {
+      "source": "Gharga",
+      "target": "M.A",
+      "weight": 2
+    },
+    {
+      "source": "HTB",
+      "target": "XIIVI",
+      "weight": 4
+    },
+    {
+      "source": "Catcher",
+      "target": "HTB",
+      "weight": 4
+    },
+    {
+      "source": "HTB",
+      "target": "OXYJHIN",
+      "weight": 15
+    },
+    {
+      "source": "Catcher",
+      "target": "XIIVI",
+      "weight": 4
+    },
+    {
+      "source": "OXYJHIN",
+      "target": "XIIVI",
+      "weight": 4
+    },
+    {
+      "source": "Catcher",
+      "target": "OXYJHIN",
+      "weight": 4
+    },
+    {
+      "source": "7Baby",
+      "target": "90s Shawty",
+      "weight": 4
+    },
+    {
+      "source": "Catcher",
+      "target": "DACHI",
+      "weight": 22
+    },
+    {
+      "source": "666GNG",
+      "target": "Wingz",
+      "weight": 9
+    },
+    {
+      "source": "Ratacid",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "Donga",
+      "target": "Ratacid",
+      "weight": 3
+    },
+    {
+      "source": "7Baby",
+      "target": "R2LF5",
+      "weight": 4
+    },
+    {
+      "source": "Catcher",
+      "target": "DvrkBoy",
+      "weight": 29
+    },
+    {
+      "source": "7Baby",
+      "target": "Catcher",
+      "weight": 21
+    },
+    {
+      "source": "7Baby",
+      "target": "DACHI",
+      "weight": 13
+    },
+    {
+      "source": "A.L.A",
+      "target": "RARE",
+      "weight": 2
+    },
+    {
+      "source": "Explicite",
+      "target": "Wingz",
+      "weight": 38
+    },
+    {
+      "source": "Fossa",
+      "target": "TOXICOLOGY LABEL",
+      "weight": 11
+    },
+    {
+      "source": "Fossa",
+      "target": "LoopLion",
+      "weight": 3
+    },
+    {
+      "source": "LoopLion",
+      "target": "TOXICOLOGY LABEL",
+      "weight": 3
+    },
+    {
+      "source": "Donga",
+      "target": "Explicite",
+      "weight": 12
+    },
+    {
+      "source": "Pureconic",
+      "target": "Wingz",
+      "weight": 9
+    },
+    {
+      "source": "Explicite",
+      "target": "Pureconic",
+      "weight": 9
+    },
+    {
+      "source": "Samara",
+      "target": "Zaineb",
+      "weight": 2
+    },
+    {
+      "source": "A.L.A",
+      "target": "Neima Ezza",
+      "weight": 3
+    },
+    {
+      "source": "A.L.A",
+      "target": "Draganov",
+      "weight": 3
+    },
+    {
+      "source": "Draganov",
+      "target": "Neima Ezza",
+      "weight": 3
+    },
+    {
+      "source": "7Baby",
+      "target": "DvrkBoy",
+      "weight": 14
+    },
+    {
+      "source": "7Baby",
+      "target": "It's ERROR",
+      "weight": 4
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "It's ERROR",
+      "weight": 4
+    },
+    {
+      "source": "Catcher",
+      "target": "It's ERROR",
+      "weight": 4
+    },
+    {
+      "source": "BAYA",
+      "target": "Samara",
+      "weight": 2
+    },
+    {
+      "source": "DACHI",
+      "target": "FrenchSo Beats",
+      "weight": 2
+    },
+    {
+      "source": "Bo9al",
+      "target": "Mouka",
+      "weight": 2
+    },
+    {
+      "source": "Blingos",
+      "target": "Samara",
+      "weight": 2
+    },
+    {
+      "source": "HTB",
+      "target": "NVST",
+      "weight": 3
+    },
+    {
+      "source": "NVST",
+      "target": "OXYJHIN",
+      "weight": 3
+    },
+    {
+      "source": "Abdeelgha4",
+      "target": "Sanfara",
+      "weight": 2
+    },
+    {
+      "source": "M.A",
+      "target": "Ussef",
+      "weight": 2
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "Wingz",
+      "weight": 3
+    },
+    {
+      "source": "Catcher",
+      "target": "Wingz",
+      "weight": 5
+    },
+    {
+      "source": "Samara",
+      "target": "Young Rz",
+      "weight": 2
+    },
+    {
+      "source": "JenJoon",
+      "target": "Myne",
+      "weight": 2
+    },
+    {
+      "source": "20fyee",
+      "target": "Wingz",
+      "weight": 4
+    },
+    {
+      "source": "Tripdoors",
+      "target": "Wingz",
+      "weight": 2
+    },
+    {
+      "source": "Wingz",
+      "target": "noise",
+      "weight": 3
+    },
+    {
+      "source": "Explicite",
+      "target": "noise",
+      "weight": 3
+    },
+    {
+      "source": "7Baby",
+      "target": "Lakrush",
+      "weight": 2
+    },
+    {
+      "source": "Noor Arjoun",
+      "target": "Selim Arjoun",
+      "weight": 3
+    },
+    {
+      "source": "Dhalma",
+      "target": "Noor Arjoun",
+      "weight": 3
+    },
+    {
+      "source": "Dhalma",
+      "target": "Selim Arjoun",
+      "weight": 3
+    },
+    {
+      "source": "Fossa",
+      "target": "MARROUKI",
+      "weight": 3
+    },
+    {
+      "source": "L2",
+      "target": "MARROUKI",
+      "weight": 6
+    },
+    {
+      "source": "Fossa",
+      "target": "L2",
+      "weight": 3
+    },
+    {
+      "source": "M.A",
+      "target": "OhSlim",
+      "weight": 6
+    },
+    {
+      "source": "L2",
+      "target": "M.A",
+      "weight": 3
+    },
+    {
+      "source": "L2",
+      "target": "OhSlim",
+      "weight": 6
+    },
+    {
+      "source": "$MXTI",
+      "target": "Pas Comme Eux",
+      "weight": 41
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "WECIM",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "WECIM",
+      "weight": 3
+    },
+    {
+      "source": "MARROUKI",
+      "target": "OhSlim",
+      "weight": 3
+    },
+    {
+      "source": "Ily",
+      "target": "Sanfara",
+      "weight": 2
+    },
+    {
+      "source": "Artmasta",
+      "target": "Aymen Lessigue",
+      "weight": 2
+    },
+    {
+      "source": "4lfa",
+      "target": "7Baby",
+      "weight": 3
+    },
+    {
+      "source": "4lfa",
+      "target": "Catcher",
+      "weight": 3
+    },
+    {
+      "source": "DACHI",
+      "target": "DvrkBoy",
+      "weight": 17
+    },
+    {
+      "source": "666GNG",
+      "target": "underrateDAN",
+      "weight": 7
+    },
+    {
+      "source": "Wingz",
+      "target": "underrateDAN",
+      "weight": 7
+    },
+    {
+      "source": "666GNG",
+      "target": "Bloody",
+      "weight": 4
+    },
+    {
+      "source": "Bloody",
+      "target": "underrateDAN",
+      "weight": 4
+    },
+    {
+      "source": "Bloody",
+      "target": "Wingz",
+      "weight": 4
+    },
+    {
+      "source": "BAD KA$H",
+      "target": "Catcher",
+      "weight": 4
+    },
+    {
+      "source": "BAD KA$H",
+      "target": "DvrkBoy",
+      "weight": 9
+    },
+    {
+      "source": "BAD KA$H",
+      "target": "DACHI",
+      "weight": 9
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "GOUCHI",
+      "weight": 5
+    },
+    {
+      "source": "DACHI",
+      "target": "GOUCHI",
+      "weight": 5
+    },
+    {
+      "source": "BAD KA$H",
+      "target": "GOUCHI",
+      "weight": 5
+    },
+    {
+      "source": "7Baby",
+      "target": "BAD KA$H",
+      "weight": 5
+    },
+    {
+      "source": "7Baby",
+      "target": "GOUCHI",
+      "weight": 5
+    },
+    {
+      "source": "Catcher",
+      "target": "El Ayo",
+      "weight": 3
+    },
+    {
+      "source": "DACHI",
+      "target": "El Ayo",
+      "weight": 3
+    },
+    {
+      "source": "Catcher",
+      "target": "Shvdy",
+      "weight": 5
+    },
+    {
+      "source": "DACHI",
+      "target": "Shvdy",
+      "weight": 5
+    },
+    {
+      "source": "7Baby",
+      "target": "Shvdy",
+      "weight": 5
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "Shvdy",
+      "weight": 5
+    },
+    {
+      "source": "Fossa",
+      "target": "Pas Comme Eux",
+      "weight": 23
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "Pas Comme Eux",
+      "weight": 10
+    },
+    {
+      "source": "$MXTI",
+      "target": "Fossa",
+      "weight": 14
+    },
+    {
+      "source": "$MXTI",
+      "target": "XIIVI",
+      "weight": 24
+    },
+    {
+      "source": "$MXTI",
+      "target": "DvrkBoy",
+      "weight": 10
+    },
+    {
+      "source": "Fossa",
+      "target": "XIIVI",
+      "weight": 19
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "Fossa",
+      "weight": 10
+    },
+    {
+      "source": "DvrkBoy",
+      "target": "XIIVI",
+      "weight": 10
+    },
+    {
+      "source": "FIN",
+      "target": "Fossa",
+      "weight": 2
+    },
+    {
+      "source": "Fossa",
+      "target": "Omara",
+      "weight": 3
+    },
+    {
+      "source": "20fyee",
+      "target": "Omara",
+      "weight": 5
+    },
+    {
+      "source": "20fyee",
+      "target": "Fossa",
+      "weight": 3
+    },
+    {
+      "source": "HTB",
+      "target": "Kiev",
+      "weight": 2
+    },
+    {
+      "source": "M.A",
+      "target": "prodby444",
+      "weight": 3
+    },
+    {
+      "source": "OhSlim",
+      "target": "prodby444",
+      "weight": 3
+    },
+    {
+      "source": "Lil' K",
+      "target": "Linko",
+      "weight": 2
+    },
+    {
+      "source": "SAFFWIZZ",
+      "target": "Trax",
+      "weight": 4
+    },
+    {
+      "source": "SAFFWIZZ",
+      "target": "Tchiggy",
+      "weight": 4
+    },
+    {
+      "source": "SAFFWIZZ",
+      "target": "Stxev Abdiov",
+      "weight": 4
+    },
+    {
+      "source": "Tchiggy",
+      "target": "Trax",
+      "weight": 4
+    },
+    {
+      "source": "Stxev Abdiov",
+      "target": "Trax",
+      "weight": 4
+    },
+    {
+      "source": "Stxev Abdiov",
+      "target": "Tchiggy",
+      "weight": 4
+    },
+    {
+      "source": "FIJO",
+      "target": "Pas Comme Eux",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "FIJO",
+      "weight": 3
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "RARE",
+      "weight": 8
+    },
+    {
+      "source": "$MXTI",
+      "target": "RARE",
+      "weight": 8
+    },
+    {
+      "source": "Fossa",
+      "target": "RARE",
+      "weight": 4
+    },
+    {
+      "source": "4lfa",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "4lfa",
+      "target": "GAL3Y",
+      "weight": 3
+    },
+    {
+      "source": "SAFFWIZZ",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "BigSeno",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "BigSeno",
+      "target": "Vipa",
+      "weight": 3
+    },
+    {
+      "source": "Namiro",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "BL made it",
+      "target": "SAFFWIZZ",
+      "weight": 3
+    },
+    {
+      "source": "BL made it",
+      "target": "Namiro",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Omara",
+      "weight": 38
+    },
+    {
+      "source": "Matsuda",
+      "target": "Omara",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Matsuda",
+      "weight": 3
+    },
+    {
+      "source": "Fresh",
+      "target": "SAFFWIZZ",
+      "weight": 2
+    },
+    {
+      "source": "BAYA",
+      "target": "SAFFWIZZ",
+      "weight": 2
+    },
+    {
+      "source": "BAD KA$H",
+      "target": "Pas Comme Eux",
+      "weight": 3
+    },
+    {
+      "source": "$MXTI",
+      "target": "BAD KA$H",
+      "weight": 3
+    },
+    {
+      "source": "Icxn",
+      "target": "Omara",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Icxn",
+      "weight": 3
+    },
+    {
+      "source": "Methlab",
+      "target": "dopeman",
+      "weight": 6
+    },
+    {
+      "source": "Methlab",
+      "target": "Omara",
+      "weight": 6
+    },
+    {
+      "source": "DAMAXGE",
+      "target": "Methlab",
+      "weight": 6
+    },
+    {
+      "source": "Methlab",
+      "target": "NAD",
+      "weight": 6
+    },
+    {
+      "source": "L2",
+      "target": "Methlab",
+      "weight": 6
+    },
+    {
+      "source": "Omara",
+      "target": "dopeman",
+      "weight": 12
+    },
+    {
+      "source": "DAMAXGE",
+      "target": "dopeman",
+      "weight": 6
+    },
+    {
+      "source": "NAD",
+      "target": "dopeman",
+      "weight": 6
+    },
+    {
+      "source": "L2",
+      "target": "dopeman",
+      "weight": 6
+    },
+    {
+      "source": "DAMAXGE",
+      "target": "Omara",
+      "weight": 6
+    },
+    {
+      "source": "NAD",
+      "target": "Omara",
+      "weight": 6
+    },
+    {
+      "source": "L2",
+      "target": "Omara",
+      "weight": 10
+    },
+    {
+      "source": "DAMAXGE",
+      "target": "NAD",
+      "weight": 6
+    },
+    {
+      "source": "DAMAXGE",
+      "target": "L2",
+      "weight": 6
+    },
+    {
+      "source": "L2",
+      "target": "NAD",
+      "weight": 6
+    },
+    {
+      "source": "Namiro",
+      "target": "Omara",
+      "weight": 4
+    },
+    {
+      "source": "Omara",
+      "target": "RamsJamsss",
+      "weight": 7
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Namiro",
+      "weight": 4
+    },
+    {
+      "source": "1da-Toul",
+      "target": "RamsJamsss",
+      "weight": 4
+    },
+    {
+      "source": "Namiro",
+      "target": "RamsJamsss",
+      "weight": 4
+    },
+    {
+      "source": "DEJ",
+      "target": "Omara",
+      "weight": 7
+    },
+    {
+      "source": "Eccentic",
+      "target": "Omara",
+      "weight": 4
+    },
+    {
+      "source": "1da-Toul",
+      "target": "DEJ",
+      "weight": 7
+    },
+    {
+      "source": "DEJ",
+      "target": "Eccentic",
+      "weight": 4
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Eccentic",
+      "weight": 4
+    },
+    {
+      "source": "Omara",
+      "target": "Ratchopper",
+      "weight": 4
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Ratchopper",
+      "weight": 4
+    },
+    {
+      "source": "1da-Toul",
+      "target": "L2",
+      "weight": 4
+    },
+    {
+      "source": "L2",
+      "target": "Ratchopper",
+      "weight": 4
+    },
+    {
+      "source": "Mahdigreb",
+      "target": "Omara",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "Mahdigreb",
+      "weight": 3
+    },
+    {
+      "source": "SAFFWIZZ",
+      "target": "Ta9chira",
+      "weight": 4
+    },
+    {
+      "source": "DJ Hrizen",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "MystikGod",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "DJ Hrizen",
+      "target": "Ta9chira",
+      "weight": 4
+    },
+    {
+      "source": "MystikGod",
+      "target": "Ta9chira",
+      "weight": 4
+    },
+    {
+      "source": "DJ Hrizen",
+      "target": "MystikGod",
+      "weight": 4
+    },
+    {
+      "source": "BAXV",
+      "target": "Calhoven",
+      "weight": 2
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "Zeltron",
+      "weight": 3
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "Z24 MEGAMIND",
+      "weight": 3
+    },
+    {
+      "source": "Z24 MEGAMIND",
+      "target": "Zeltron",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "dopeman",
+      "weight": 3
+    },
+    {
+      "source": "Sc Papi",
+      "target": "Soldjvt",
+      "weight": 2
+    },
+    {
+      "source": "BAXV",
+      "target": "Pas Comme Eux",
+      "weight": 5
+    },
+    {
+      "source": "$MXTI",
+      "target": "20fyee",
+      "weight": 5
+    },
+    {
+      "source": "20fyee",
+      "target": "BAXV",
+      "weight": 5
+    },
+    {
+      "source": "Pas Comme Eux",
+      "target": "Snoopy the highest",
+      "weight": 4
+    },
+    {
+      "source": "$MXTI",
+      "target": "Snoopy the highest",
+      "weight": 4
+    },
+    {
+      "source": "Snoopy the highest",
+      "target": "XIIVI",
+      "weight": 4
+    },
+    {
+      "source": "4lfa",
+      "target": "LUAS",
+      "weight": 2
+    },
+    {
+      "source": "RamsJamsss",
+      "target": "dopeman",
+      "weight": 3
+    },
+    {
+      "source": "GAL3Y",
+      "target": "SIXBOI",
+      "weight": 6
+    },
+    {
+      "source": "GAL3Y",
+      "target": "XIIVI",
+      "weight": 3
+    },
+    {
+      "source": "SIXBOI",
+      "target": "XIIVI",
+      "weight": 3
+    },
+    {
+      "source": "GAL3Y",
+      "target": "Lakoud",
+      "weight": 3
+    },
+    {
+      "source": "Lakoud",
+      "target": "SIXBOI",
+      "weight": 3
+    },
+    {
+      "source": "L2",
+      "target": "LUAS",
+      "weight": 5
+    },
+    {
+      "source": "John Six",
+      "target": "LUAS",
+      "weight": 3
+    },
+    {
+      "source": "John Six",
+      "target": "L2",
+      "weight": 3
+    },
+    {
+      "source": "HbibzGang",
+      "target": "Pas Comme Eux",
+      "weight": 4
+    },
+    {
+      "source": "$MXTI",
+      "target": "HbibzGang",
+      "weight": 4
+    },
+    {
+      "source": "HbibzGang",
+      "target": "RARE",
+      "weight": 4
+    },
+    {
+      "source": "Mizo-H",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "NASTYSH!!T",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "$MXTI",
+      "target": "SAFFWIZZ",
+      "weight": 4
+    },
+    {
+      "source": "Mizo-H",
+      "target": "NASTYSH!!T",
+      "weight": 4
+    },
+    {
+      "source": "$MXTI",
+      "target": "Mizo-H",
+      "weight": 4
+    },
+    {
+      "source": "$MXTI",
+      "target": "NASTYSH!!T",
+      "weight": 4
+    },
+    {
+      "source": "L2",
+      "target": "XIIVI",
+      "weight": 2
+    },
+    {
+      "source": "Mizo-H",
+      "target": "XIIVI",
+      "weight": 2
+    },
+    {
+      "source": "Omara",
+      "target": "prodby2g",
+      "weight": 3
+    },
+    {
+      "source": "1da-Toul",
+      "target": "prodby2g",
+      "weight": 3
+    },
+    {
+      "source": "Belhadj",
+      "target": "Junior",
+      "weight": 2
+    },
+    {
+      "source": "Cheb terro",
+      "target": "DJ Die Soon",
+      "weight": 2
+    },
+    {
+      "source": "A.L.A",
+      "target": "El Castro",
+      "weight": 35
+    },
+    {
+      "source": "Cuzama",
+      "target": "El Castro",
+      "weight": 3
+    },
+    {
+      "source": "El Castro",
+      "target": "K-2ouj",
+      "weight": 3
+    },
+    {
+      "source": "Cuzama",
+      "target": "K-2ouj",
+      "weight": 3
+    },
+    {
+      "source": "El Castro",
+      "target": "Gas",
+      "weight": 3
+    },
+    {
+      "source": "A.L.A",
+      "target": "Gas",
+      "weight": 3
+    },
+    {
+      "source": "Black T",
+      "target": "El Castro",
+      "weight": 2
+    }
+  ]
+}

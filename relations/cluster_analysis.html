@@ -1,0 +1,276 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>Artist Clustering Analysis</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            .cluster-section { margin: 20px 0; }
+            table { border-collapse: collapse; width: 100%; margin: 10px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .cluster-name { font-weight: bold; color: #333; }
+            .count { font-weight: bold; color: #0066cc; }
+            .percentage { color: #666; }
+        </style>
+    </head>
+    <body>
+        <h1>Artist Clustering Analysis</h1>
+        
+        <div class="cluster-section">
+            <h2>Popularity Clusters</h2>
+            <table>
+                <tr>
+                    <th>Cluster</th>
+                    <th>Number of Artists</th>
+                    <th>Percentage</th>
+                </tr>
+    
+                <tr>
+                    <td class="cluster-name">Very Low</td>
+                    <td class="count">126</td>
+                    <td class="percentage">54.8%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">Low</td>
+                    <td class="count">47</td>
+                    <td class="percentage">20.4%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">Medium</td>
+                    <td class="count">42</td>
+                    <td class="percentage">18.3%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">High</td>
+                    <td class="count">13</td>
+                    <td class="percentage">5.7%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">Very High</td>
+                    <td class="count">2</td>
+                    <td class="percentage">0.9%</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <div class="cluster-section">
+            <h2>Danceability Clusters</h2>
+            <table>
+                <tr>
+                    <th>Cluster</th>
+                    <th>Number of Artists</th>
+                    <th>Percentage</th>
+                </tr>
+    
+                <tr>
+                    <td class="cluster-name">Medium Dance</td>
+                    <td class="count">128</td>
+                    <td class="percentage">55.7%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">High Dance</td>
+                    <td class="count">71</td>
+                    <td class="percentage">30.9%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">Low Dance</td>
+                    <td class="count">31</td>
+                    <td class="percentage">13.5%</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <div class="cluster-section">
+            <h2>Energy Clusters</h2>
+            <table>
+                <tr>
+                    <th>Cluster</th>
+                    <th>Number of Artists</th>
+                    <th>Percentage</th>
+                </tr>
+    
+                <tr>
+                    <td class="cluster-name">Medium Energy</td>
+                    <td class="count">158</td>
+                    <td class="percentage">68.7%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">High Energy</td>
+                    <td class="count">58</td>
+                    <td class="percentage">25.2%</td>
+                </tr>
+        
+                <tr>
+                    <td class="cluster-name">Low Energy</td>
+                    <td class="count">14</td>
+                    <td class="percentage">6.1%</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <div class="cluster-section">
+            <h2>Top Artists by Popularity</h2>
+            <table>
+                <tr>
+                    <th>Rank</th>
+                    <th>Artist</th>
+                    <th>Average Popularity</th>
+                    <th>Cluster</th>
+                </tr>
+    
+                <tr>
+                    <td class="rank">1</td>
+                    <td>Kanye West</td>
+                    <td class="count">83.0</td>
+                    <td class="cluster-name">Very High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">2</td>
+                    <td>Roddy Ricch</td>
+                    <td class="count">83.0</td>
+                    <td class="cluster-name">Very High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">3</td>
+                    <td>Frank Ocean</td>
+                    <td class="count">63.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">4</td>
+                    <td>John Mayer</td>
+                    <td class="count">63.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">5</td>
+                    <td>Earl Sweatshirt</td>
+                    <td class="count">56.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">6</td>
+                    <td>The Notorious B.I.G.</td>
+                    <td class="count">56.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">7</td>
+                    <td>TIF</td>
+                    <td class="count">53.2</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">8</td>
+                    <td>EARTHGANG</td>
+                    <td class="count">53.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">9</td>
+                    <td>J. Cole</td>
+                    <td class="count">53.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">10</td>
+                    <td>JID</td>
+                    <td class="count">53.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">11</td>
+                    <td>Blanka</td>
+                    <td class="count">52.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">12</td>
+                    <td>La Fine Equipe</td>
+                    <td class="count">52.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">13</td>
+                    <td>Pedro Guerra</td>
+                    <td class="count">52.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">14</td>
+                    <td>Freddie Gibbs</td>
+                    <td class="count">51.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">15</td>
+                    <td>Marwan Moussa</td>
+                    <td class="count">50.0</td>
+                    <td class="cluster-name">High</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">16</td>
+                    <td>Juanes</td>
+                    <td class="count">49.0</td>
+                    <td class="cluster-name">Medium</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">17</td>
+                    <td>Curren$y</td>
+                    <td class="count">48.0</td>
+                    <td class="cluster-name">Medium</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">18</td>
+                    <td>Westside Gunn</td>
+                    <td class="count">47.5</td>
+                    <td class="cluster-name">Medium</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">19</td>
+                    <td>Flenn</td>
+                    <td class="count">47.0</td>
+                    <td class="cluster-name">Medium</td>
+                </tr>
+        
+                <tr>
+                    <td class="rank">20</td>
+                    <td>Ghali</td>
+                    <td class="count">47.0</td>
+                    <td class="cluster-name">Medium</td>
+                </tr>
+        
+            </table>
+        </div>
+    </body>
+    </html>
+    

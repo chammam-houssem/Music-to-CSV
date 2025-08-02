@@ -1,0 +1,5777 @@
+{
+  "nodes": [
+    {
+      "id": "01:00 AM",
+      "type": "album",
+      "artists_count": 4,
+      "label": "01:00 AM"
+    },
+    {
+      "id": "05:01 AM",
+      "type": "album",
+      "artists_count": 3,
+      "label": "05:01 AM"
+    },
+    {
+      "id": "1.6",
+      "type": "album",
+      "artists_count": 1,
+      "label": "1.6"
+    },
+    {
+      "id": "10 Marra",
+      "type": "album",
+      "artists_count": 1,
+      "label": "10 Marra"
+    },
+    {
+      "id": "105",
+      "type": "album",
+      "artists_count": 2,
+      "label": "105"
+    },
+    {
+      "id": "1221",
+      "type": "album",
+      "artists_count": 1,
+      "label": "1221"
+    },
+    {
+      "id": "2000 Ktab",
+      "type": "album",
+      "artists_count": 1,
+      "label": "2000 Ktab"
+    },
+    {
+      "id": "29 DECEMBER",
+      "type": "album",
+      "artists_count": 3,
+      "label": "29 DECEMBER"
+    },
+    {
+      "id": "3021",
+      "type": "album",
+      "artists_count": 1,
+      "label": "3021"
+    },
+    {
+      "id": "3eres edhib",
+      "type": "album",
+      "artists_count": 1,
+      "label": "3eres edhib"
+    },
+    {
+      "id": "3inik El Souda",
+      "type": "album",
+      "artists_count": 2,
+      "label": "3inik El Souda"
+    },
+    {
+      "id": "5amsa li la7gou bil jorra ( with Vipa & Tiga Blackna)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "5amsa li la7gou bil jorra ( with Vipa & Tiga Blackna)"
+    },
+    {
+      "id": "6.Ila",
+      "type": "album",
+      "artists_count": 2,
+      "label": "6.Ila"
+    },
+    {
+      "id": "6IX 8UIT",
+      "type": "album",
+      "artists_count": 3,
+      "label": "6IX 8UIT"
+    },
+    {
+      "id": "7100",
+      "type": "album",
+      "artists_count": 1,
+      "label": "7100"
+    },
+    {
+      "id": "888 Freestyle",
+      "type": "album",
+      "artists_count": 1,
+      "label": "888 Freestyle"
+    },
+    {
+      "id": "999",
+      "type": "album",
+      "artists_count": 2,
+      "label": "999"
+    },
+    {
+      "id": "9K32",
+      "type": "album",
+      "artists_count": 1,
+      "label": "9K32"
+    },
+    {
+      "id": "9OLI CHKOUN",
+      "type": "album",
+      "artists_count": 1,
+      "label": "9OLI CHKOUN"
+    },
+    {
+      "id": "A7lemi Tayra",
+      "type": "album",
+      "artists_count": 1,
+      "label": "A7lemi Tayra"
+    },
+    {
+      "id": "AADHEBI",
+      "type": "album",
+      "artists_count": 1,
+      "label": "AADHEBI"
+    },
+    {
+      "id": "ABC",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ABC"
+    },
+    {
+      "id": "ADRENALINE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "ADRENALINE"
+    },
+    {
+      "id": "AIINA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "AIINA"
+    },
+    {
+      "id": "AIRMAX",
+      "type": "album",
+      "artists_count": 3,
+      "label": "AIRMAX"
+    },
+    {
+      "id": "AKADHIB",
+      "type": "album",
+      "artists_count": 3,
+      "label": "AKADHIB"
+    },
+    {
+      "id": "ALELI",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ALELI"
+    },
+    {
+      "id": "ALIVE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ALIVE"
+    },
+    {
+      "id": "ALMOST FAMOUS",
+      "type": "album",
+      "artists_count": 3,
+      "label": "ALMOST FAMOUS"
+    },
+    {
+      "id": "APEX",
+      "type": "album",
+      "artists_count": 2,
+      "label": "APEX"
+    },
+    {
+      "id": "APOLLO",
+      "type": "album",
+      "artists_count": 3,
+      "label": "APOLLO"
+    },
+    {
+      "id": "ARSON",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ARSON"
+    },
+    {
+      "id": "ASSASSIN",
+      "type": "album",
+      "artists_count": 3,
+      "label": "ASSASSIN"
+    },
+    {
+      "id": "Aayech Maak",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Aayech Maak"
+    },
+    {
+      "id": "Adheka Libik",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Adheka Libik"
+    },
+    {
+      "id": "Afyoon",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Afyoon"
+    },
+    {
+      "id": "Age Began Counting",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Age Began Counting"
+    },
+    {
+      "id": "Al Wa7Da",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Al Wa7Da"
+    },
+    {
+      "id": "All Mah N***",
+      "type": "album",
+      "artists_count": 3,
+      "label": "All Mah N***"
+    },
+    {
+      "id": "Alone",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Alone"
+    },
+    {
+      "id": "Ambiance mariage tunisien (Mix Non Stop)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ambiance mariage tunisien (Mix Non Stop)"
+    },
+    {
+      "id": "Aradinha",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Aradinha"
+    },
+    {
+      "id": "Astronaute",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Astronaute"
+    },
+    {
+      "id": "BAD ANGEL",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BAD ANGEL"
+    },
+    {
+      "id": "BASTA.",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BASTA."
+    },
+    {
+      "id": "BAYAN",
+      "type": "album",
+      "artists_count": 2,
+      "label": "BAYAN"
+    },
+    {
+      "id": "BENDO",
+      "type": "album",
+      "artists_count": 2,
+      "label": "BENDO"
+    },
+    {
+      "id": "BIG L",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BIG L"
+    },
+    {
+      "id": "BOOTCAMP",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BOOTCAMP"
+    },
+    {
+      "id": "BOOTCAMP DELUXE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "BOOTCAMP DELUXE"
+    },
+    {
+      "id": "BRAZIL",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BRAZIL"
+    },
+    {
+      "id": "BVB",
+      "type": "album",
+      "artists_count": 1,
+      "label": "BVB"
+    },
+    {
+      "id": "Baba",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Baba"
+    },
+    {
+      "id": "Baba Lakorza Lant5a",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Baba Lakorza Lant5a"
+    },
+    {
+      "id": "Bad Trip 2",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Bad Trip 2"
+    },
+    {
+      "id": "Bag Talk",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Bag Talk"
+    },
+    {
+      "id": "Balance",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Balance"
+    },
+    {
+      "id": "Bambina",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Bambina"
+    },
+    {
+      "id": "Barrani",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Barrani"
+    },
+    {
+      "id": "Be Careful 2",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Be Careful 2"
+    },
+    {
+      "id": "Belekchi Na El Ghalet",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Belekchi Na El Ghalet"
+    },
+    {
+      "id": "Binetna Layem",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Binetna Layem"
+    },
+    {
+      "id": "Bo Jackson",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Bo Jackson"
+    },
+    {
+      "id": "Bon Vent",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Bon Vent"
+    },
+    {
+      "id": "Bonsoir",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Bonsoir"
+    },
+    {
+      "id": "Bounce Back",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Bounce Back"
+    },
+    {
+      "id": "Bye Bye Lmiziria (Remix)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Bye Bye Lmiziria (Remix)"
+    },
+    {
+      "id": "CANADA",
+      "type": "album",
+      "artists_count": 2,
+      "label": "CANADA"
+    },
+    {
+      "id": "CHAGATO",
+      "type": "album",
+      "artists_count": 6,
+      "label": "CHAGATO"
+    },
+    {
+      "id": "CHARISMA",
+      "type": "album",
+      "artists_count": 2,
+      "label": "CHARISMA"
+    },
+    {
+      "id": "CHARIZARD (LONG LIVE 12.6)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "CHARIZARD (LONG LIVE 12.6)"
+    },
+    {
+      "id": "CHEB TERRO VS DJ DIE SOON",
+      "type": "album",
+      "artists_count": 1,
+      "label": "CHEB TERRO VS DJ DIE SOON"
+    },
+    {
+      "id": "CHED ROUTE",
+      "type": "album",
+      "artists_count": 4,
+      "label": "CHED ROUTE"
+    },
+    {
+      "id": "CHEF",
+      "type": "album",
+      "artists_count": 1,
+      "label": "CHEF"
+    },
+    {
+      "id": "CHIKOUR",
+      "type": "album",
+      "artists_count": 1,
+      "label": "CHIKOUR"
+    },
+    {
+      "id": "COLLECTION OF CHEB TERRO X DJ HRIZEN",
+      "type": "album",
+      "artists_count": 2,
+      "label": "COLLECTION OF CHEB TERRO X DJ HRIZEN"
+    },
+    {
+      "id": "CRIMINALZ",
+      "type": "album",
+      "artists_count": 4,
+      "label": "CRIMINALZ"
+    },
+    {
+      "id": "Cash & Pouvoir",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Cash & Pouvoir"
+    },
+    {
+      "id": "Cheb Terro vs. DJ Die Soon",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Cheb Terro vs. DJ Die Soon"
+    },
+    {
+      "id": "Chopard",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Chopard"
+    },
+    {
+      "id": "Contigo En La Distancia",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Contigo En La Distancia"
+    },
+    {
+      "id": "Couscous Connection",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Couscous Connection"
+    },
+    {
+      "id": "Crash Out",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Crash Out"
+    },
+    {
+      "id": "DAMAGE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "DAMAGE"
+    },
+    {
+      "id": "DDT",
+      "type": "album",
+      "artists_count": 2,
+      "label": "DDT"
+    },
+    {
+      "id": "DEBO Maya3rfouch [00 Mixtape]",
+      "type": "album",
+      "artists_count": 4,
+      "label": "DEBO Maya3rfouch [00 Mixtape]"
+    },
+    {
+      "id": "DECEMBER",
+      "type": "album",
+      "artists_count": 2,
+      "label": "DECEMBER"
+    },
+    {
+      "id": "DECLIC",
+      "type": "album",
+      "artists_count": 3,
+      "label": "DECLIC"
+    },
+    {
+      "id": "DEVIL",
+      "type": "album",
+      "artists_count": 1,
+      "label": "DEVIL"
+    },
+    {
+      "id": "DISTANCE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "DISTANCE"
+    },
+    {
+      "id": "DOPAMINE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "DOPAMINE"
+    },
+    {
+      "id": "Dayem Allah",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Dayem Allah"
+    },
+    {
+      "id": "Dead Face",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Dead Face"
+    },
+    {
+      "id": "Deep Web",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Deep Web"
+    },
+    {
+      "id": "Dhlem Lil",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Dhlem Lil"
+    },
+    {
+      "id": "Dima Mechi (\u062f\u064a\u0645\u0627 \u0645\u0627\u0634\u064a)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Dima Mechi (\u062f\u064a\u0645\u0627 \u0645\u0627\u0634\u064a)"
+    },
+    {
+      "id": "Drynie's World",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Drynie's World"
+    },
+    {
+      "id": "EASTCOASTSTORY: lifestyles",
+      "type": "album",
+      "artists_count": 1,
+      "label": "EASTCOASTSTORY: lifestyles"
+    },
+    {
+      "id": "EL DAR",
+      "type": "album",
+      "artists_count": 2,
+      "label": "EL DAR"
+    },
+    {
+      "id": "EN MI CABEZA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "EN MI CABEZA"
+    },
+    {
+      "id": "ENCORE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ENCORE"
+    },
+    {
+      "id": "El wa7da",
+      "type": "album",
+      "artists_count": 1,
+      "label": "El wa7da"
+    },
+    {
+      "id": "Ellil",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ellil"
+    },
+    {
+      "id": "Ena Wayek",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ena Wayek"
+    },
+    {
+      "id": "Ensen",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ensen"
+    },
+    {
+      "id": "Erwah",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Erwah"
+    },
+    {
+      "id": "Exit",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Exit"
+    },
+    {
+      "id": "FAMA FLOU$",
+      "type": "album",
+      "artists_count": 5,
+      "label": "FAMA FLOU$"
+    },
+    {
+      "id": "FI9",
+      "type": "album",
+      "artists_count": 2,
+      "label": "FI9"
+    },
+    {
+      "id": "FINGZ SE4SON",
+      "type": "album",
+      "artists_count": 3,
+      "label": "FINGZ SE4SON"
+    },
+    {
+      "id": "FOG JUICE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "FOG JUICE"
+    },
+    {
+      "id": "FUCK THE KID .. AND THE CITY",
+      "type": "album",
+      "artists_count": 1,
+      "label": "FUCK THE KID .. AND THE CITY"
+    },
+    {
+      "id": "Faces",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Faces"
+    },
+    {
+      "id": "Ferrero Rocher",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ferrero Rocher"
+    },
+    {
+      "id": "Fetti",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Fetti"
+    },
+    {
+      "id": "Fire",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Fire"
+    },
+    {
+      "id": "Flouss w Massayeb",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Flouss w Massayeb"
+    },
+    {
+      "id": "Flygod Is An Awesome God 2",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Flygod Is An Awesome God 2"
+    },
+    {
+      "id": "Four Seasons One Climate",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Four Seasons One Climate"
+    },
+    {
+      "id": "Freestyle",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Freestyle"
+    },
+    {
+      "id": "Fuerte Y Caliente",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Fuerte Y Caliente"
+    },
+    {
+      "id": "Fusion",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Fusion"
+    },
+    {
+      "id": "GEN Z",
+      "type": "album",
+      "artists_count": 2,
+      "label": "GEN Z"
+    },
+    {
+      "id": "GHETTO GODS",
+      "type": "album",
+      "artists_count": 3,
+      "label": "GHETTO GODS"
+    },
+    {
+      "id": "GOLDEN GOD",
+      "type": "album",
+      "artists_count": 3,
+      "label": "GOLDEN GOD"
+    },
+    {
+      "id": "GOOD KID TOXIC CITY.",
+      "type": "album",
+      "artists_count": 1,
+      "label": "GOOD KID TOXIC CITY."
+    },
+    {
+      "id": "GTO",
+      "type": "album",
+      "artists_count": 2,
+      "label": "GTO"
+    },
+    {
+      "id": "Gen Z",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Gen Z"
+    },
+    {
+      "id": "Ghaba",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ghaba"
+    },
+    {
+      "id": "Ghara9",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ghara9"
+    },
+    {
+      "id": "Gharghour Elil",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Gharghour Elil"
+    },
+    {
+      "id": "Ghassil Dimegh",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Ghassil Dimegh"
+    },
+    {
+      "id": "Ghazali",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Ghazali"
+    },
+    {
+      "id": "Ghost",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ghost"
+    },
+    {
+      "id": "Ghram",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ghram"
+    },
+    {
+      "id": "Greatest Hits",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Greatest Hits"
+    },
+    {
+      "id": "Green Virus",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Green Virus"
+    },
+    {
+      "id": "HEISEINBVNG",
+      "type": "album",
+      "artists_count": 2,
+      "label": "HEISEINBVNG"
+    },
+    {
+      "id": "HET",
+      "type": "album",
+      "artists_count": 2,
+      "label": "HET"
+    },
+    {
+      "id": "HIDEOUT",
+      "type": "album",
+      "artists_count": 2,
+      "label": "HIDEOUT"
+    },
+    {
+      "id": "HOLD UP",
+      "type": "album",
+      "artists_count": 2,
+      "label": "HOLD UP"
+    },
+    {
+      "id": "HOOKLESS",
+      "type": "album",
+      "artists_count": 1,
+      "label": "HOOKLESS"
+    },
+    {
+      "id": "Hall & Nash 2",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Hall & Nash 2"
+    },
+    {
+      "id": "Happy Hour",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Happy Hour"
+    },
+    {
+      "id": "Hayala",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Hayala"
+    },
+    {
+      "id": "Hybrid",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Hybrid"
+    },
+    {
+      "id": "I3ARA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "I3ARA"
+    },
+    {
+      "id": "IMMORTAL CAESAR",
+      "type": "album",
+      "artists_count": 1,
+      "label": "IMMORTAL CAESAR"
+    },
+    {
+      "id": "INFAMOUS",
+      "type": "album",
+      "artists_count": 2,
+      "label": "INFAMOUS"
+    },
+    {
+      "id": "INFRARED",
+      "type": "album",
+      "artists_count": 1,
+      "label": "INFRARED"
+    },
+    {
+      "id": "It's hard to break a habit",
+      "type": "album",
+      "artists_count": 3,
+      "label": "It's hard to break a habit"
+    },
+    {
+      "id": "JAD ALIK",
+      "type": "album",
+      "artists_count": 1,
+      "label": "JAD ALIK"
+    },
+    {
+      "id": "John Redcorn - A COLORS SHOW",
+      "type": "album",
+      "artists_count": 1,
+      "label": "John Redcorn - A COLORS SHOW"
+    },
+    {
+      "id": "KARMA",
+      "type": "album",
+      "artists_count": 2,
+      "label": "KARMA"
+    },
+    {
+      "id": "KHOYA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "KHOYA"
+    },
+    {
+      "id": "KING VON",
+      "type": "album",
+      "artists_count": 1,
+      "label": "KING VON"
+    },
+    {
+      "id": "KISS THE RING",
+      "type": "album",
+      "artists_count": 1,
+      "label": "KISS THE RING"
+    },
+    {
+      "id": "KONT NKHAF 3LIK MEN NAAR",
+      "type": "album",
+      "artists_count": 1,
+      "label": "KONT NKHAF 3LIK MEN NAAR"
+    },
+    {
+      "id": "KWIKA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "KWIKA"
+    },
+    {
+      "id": "Ka7la Stella",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ka7la Stella"
+    },
+    {
+      "id": "Keema Ena",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Keema Ena"
+    },
+    {
+      "id": "Kevin-Prince Boateng",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Kevin-Prince Boateng"
+    },
+    {
+      "id": "Khousara",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Khousara"
+    },
+    {
+      "id": "Kifech Twali Rappeur",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Kifech Twali Rappeur"
+    },
+    {
+      "id": "Koulou Banat",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Koulou Banat"
+    },
+    {
+      "id": "La Dulzura",
+      "type": "album",
+      "artists_count": 1,
+      "label": "La Dulzura"
+    },
+    {
+      "id": "La boulangerie (Back Burners)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "La boulangerie (Back Burners)"
+    },
+    {
+      "id": "Lahmer Album",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Lahmer Album"
+    },
+    {
+      "id": "Lahmer Mixtape",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Lahmer Mixtape"
+    },
+    {
+      "id": "Layam",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Layam"
+    },
+    {
+      "id": "M3ANDI",
+      "type": "album",
+      "artists_count": 3,
+      "label": "M3ANDI"
+    },
+    {
+      "id": "M9ass Ennar",
+      "type": "album",
+      "artists_count": 1,
+      "label": "M9ass Ennar"
+    },
+    {
+      "id": "MANNENI",
+      "type": "album",
+      "artists_count": 2,
+      "label": "MANNENI"
+    },
+    {
+      "id": "MESTWI",
+      "type": "album",
+      "artists_count": 2,
+      "label": "MESTWI"
+    },
+    {
+      "id": "METHANOL 62",
+      "type": "album",
+      "artists_count": 2,
+      "label": "METHANOL 62"
+    },
+    {
+      "id": "METRO EL RAP",
+      "type": "album",
+      "artists_count": 3,
+      "label": "METRO EL RAP"
+    },
+    {
+      "id": "METRO EL RAP FM (Deluxe)",
+      "type": "album",
+      "artists_count": 3,
+      "label": "METRO EL RAP FM (Deluxe)"
+    },
+    {
+      "id": "MIA KHALIFA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "MIA KHALIFA"
+    },
+    {
+      "id": "MORPH",
+      "type": "album",
+      "artists_count": 1,
+      "label": "MORPH"
+    },
+    {
+      "id": "MOSHPITTAPE VOL 1",
+      "type": "album",
+      "artists_count": 2,
+      "label": "MOSHPITTAPE VOL 1"
+    },
+    {
+      "id": "MOTIVATION",
+      "type": "album",
+      "artists_count": 3,
+      "label": "MOTIVATION"
+    },
+    {
+      "id": "Ma Te9efch",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ma Te9efch"
+    },
+    {
+      "id": "Ma Tebki Ya Ain",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ma Tebki Ya Ain"
+    },
+    {
+      "id": "Ma Vie",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ma Vie"
+    },
+    {
+      "id": "Makhsernech (\u0645\u062e\u0633\u0631\u0646\u0627\u0634)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Makhsernech (\u0645\u062e\u0633\u0631\u0646\u0627\u0634)"
+    },
+    {
+      "id": "Malak",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Malak"
+    },
+    {
+      "id": "Manetfergou",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Manetfergou"
+    },
+    {
+      "id": "Maps",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Maps"
+    },
+    {
+      "id": "Maradona",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Maradona"
+    },
+    {
+      "id": "Masajin",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Masajin"
+    },
+    {
+      "id": "Maybe I Love U Maybe IDK (unmastered)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Maybe I Love U Maybe IDK (unmastered)"
+    },
+    {
+      "id": "Mdayda",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mdayda"
+    },
+    {
+      "id": "Megalodon",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Megalodon"
+    },
+    {
+      "id": "Mel Galb",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mel Galb"
+    },
+    {
+      "id": "Mes racines",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mes racines"
+    },
+    {
+      "id": "Mic Champ",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mic Champ"
+    },
+    {
+      "id": "Midnight Drafts",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Midnight Drafts"
+    },
+    {
+      "id": "Mieux sans toi",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Mieux sans toi"
+    },
+    {
+      "id": "Missing Archives",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Missing Archives"
+    },
+    {
+      "id": "Mixtape Vol. 2",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mixtape Vol. 2"
+    },
+    {
+      "id": "Mixtape \u0645\u0627\u0630\u0627\u0641\u0627\u0643\u0631",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Mixtape \u0645\u0627\u0630\u0627\u0641\u0627\u0643\u0631"
+    },
+    {
+      "id": "Mixtape: 7 Days",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mixtape: 7 Days"
+    },
+    {
+      "id": "Moment Of Clarity",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Moment Of Clarity"
+    },
+    {
+      "id": "Mouta Mouta",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Mouta Mouta"
+    },
+    {
+      "id": "Msamhin",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Msamhin"
+    },
+    {
+      "id": "N3ich Fin (RIP Cheb Terro)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "N3ich Fin (RIP Cheb Terro)"
+    },
+    {
+      "id": "NAKAHET",
+      "type": "album",
+      "artists_count": 2,
+      "label": "NAKAHET"
+    },
+    {
+      "id": "NEBULA",
+      "type": "album",
+      "artists_count": 2,
+      "label": "NEBULA"
+    },
+    {
+      "id": "NESSI ENNOUM",
+      "type": "album",
+      "artists_count": 2,
+      "label": "NESSI ENNOUM"
+    },
+    {
+      "id": "NICE CATCH",
+      "type": "album",
+      "artists_count": 1,
+      "label": "NICE CATCH"
+    },
+    {
+      "id": "NOISE CANCELLING",
+      "type": "album",
+      "artists_count": 2,
+      "label": "NOISE CANCELLING"
+    },
+    {
+      "id": "NONCHALANT",
+      "type": "album",
+      "artists_count": 1,
+      "label": "NONCHALANT"
+    },
+    {
+      "id": "Napoli",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Napoli"
+    },
+    {
+      "id": "Netmanelk Kol El Khiir",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Netmanelk Kol El Khiir"
+    },
+    {
+      "id": "New Bitch Mixtape",
+      "type": "album",
+      "artists_count": 1,
+      "label": "New Bitch Mixtape"
+    },
+    {
+      "id": "No Doubt",
+      "type": "album",
+      "artists_count": 2,
+      "label": "No Doubt"
+    },
+    {
+      "id": "No Doubt II",
+      "type": "album",
+      "artists_count": 2,
+      "label": "No Doubt II"
+    },
+    {
+      "id": "Noss Ellil",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Noss Ellil"
+    },
+    {
+      "id": "OBITO",
+      "type": "album",
+      "artists_count": 2,
+      "label": "OBITO"
+    },
+    {
+      "id": "ONCE UPON A TIME IN 7OUMET 3AYCHA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ONCE UPON A TIME IN 7OUMET 3AYCHA"
+    },
+    {
+      "id": "OYABUN",
+      "type": "album",
+      "artists_count": 3,
+      "label": "OYABUN"
+    },
+    {
+      "id": "Odyssey (Odd To See)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Odyssey (Odd To See)"
+    },
+    {
+      "id": "Odyssey (odd to see)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Odyssey (odd to see)"
+    },
+    {
+      "id": "Ola (Acoustic version)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ola (Acoustic version)"
+    },
+    {
+      "id": "Old Bitch Mixtape",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Old Bitch Mixtape"
+    },
+    {
+      "id": "Omri T3ada",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Omri T3ada"
+    },
+    {
+      "id": "On My Way",
+      "type": "album",
+      "artists_count": 2,
+      "label": "On My Way"
+    },
+    {
+      "id": "Opalach",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Opalach"
+    },
+    {
+      "id": "Outsiders",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Outsiders"
+    },
+    {
+      "id": "PIEGE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "PIEGE"
+    },
+    {
+      "id": "PLUG LIFE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "PLUG LIFE"
+    },
+    {
+      "id": "PROPAGANDA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "PROPAGANDA"
+    },
+    {
+      "id": "PROPAGANDA (DELUXE)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "PROPAGANDA (DELUXE)"
+    },
+    {
+      "id": "PTSD",
+      "type": "album",
+      "artists_count": 1,
+      "label": "PTSD"
+    },
+    {
+      "id": "Parasite",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Parasite"
+    },
+    {
+      "id": "Per Noi",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Per Noi"
+    },
+    {
+      "id": "Petite foul\u00e9e",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Petite foul\u00e9e"
+    },
+    {
+      "id": "Please Excuse Me for Being Antisocial",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Please Excuse Me for Being Antisocial"
+    },
+    {
+      "id": "Poids Lourd",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Poids Lourd"
+    },
+    {
+      "id": "RACHMET",
+      "type": "album",
+      "artists_count": 2,
+      "label": "RACHMET"
+    },
+    {
+      "id": "RAF",
+      "type": "album",
+      "artists_count": 1,
+      "label": "RAF"
+    },
+    {
+      "id": "RANDOM TRACKS DAILY SUFFERING",
+      "type": "album",
+      "artists_count": 3,
+      "label": "RANDOM TRACKS DAILY SUFFERING"
+    },
+    {
+      "id": "RINNEGAN",
+      "type": "album",
+      "artists_count": 1,
+      "label": "RINNEGAN"
+    },
+    {
+      "id": "RIQUELME",
+      "type": "album",
+      "artists_count": 1,
+      "label": "RIQUELME"
+    },
+    {
+      "id": "RISE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "RISE"
+    },
+    {
+      "id": "RISE OF A GANG",
+      "type": "album",
+      "artists_count": 4,
+      "label": "RISE OF A GANG"
+    },
+    {
+      "id": "ROBUCHON'S JAM",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ROBUCHON'S JAM"
+    },
+    {
+      "id": "ROLLIN'",
+      "type": "album",
+      "artists_count": 1,
+      "label": "ROLLIN'"
+    },
+    {
+      "id": "Raby Yostor",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Raby Yostor"
+    },
+    {
+      "id": "Rachma Sounds Vol. 1",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Rachma Sounds Vol. 1"
+    },
+    {
+      "id": "Rai Futura",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Rai Futura"
+    },
+    {
+      "id": "Ramallah",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ramallah"
+    },
+    {
+      "id": "Rapina",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Rapina"
+    },
+    {
+      "id": "Rbouk El Houma",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Rbouk El Houma"
+    },
+    {
+      "id": "Reasonable Drought",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Reasonable Drought"
+    },
+    {
+      "id": "Rmit Wraya",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Rmit Wraya"
+    },
+    {
+      "id": "S3ib",
+      "type": "album",
+      "artists_count": 1,
+      "label": "S3ib"
+    },
+    {
+      "id": "SHAHNAMEH",
+      "type": "album",
+      "artists_count": 2,
+      "label": "SHAHNAMEH"
+    },
+    {
+      "id": "SMS",
+      "type": "album",
+      "artists_count": 3,
+      "label": "SMS"
+    },
+    {
+      "id": "SODA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "SODA"
+    },
+    {
+      "id": "SOFIA",
+      "type": "album",
+      "artists_count": 2,
+      "label": "SOFIA"
+    },
+    {
+      "id": "SOTTACH",
+      "type": "album",
+      "artists_count": 1,
+      "label": "SOTTACH"
+    },
+    {
+      "id": "Saber",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Saber"
+    },
+    {
+      "id": "Sada9tha",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sada9tha"
+    },
+    {
+      "id": "Sahara (\u0633\u0647\u0651\u0627\u0631\u0629)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sahara (\u0633\u0647\u0651\u0627\u0631\u0629)"
+    },
+    {
+      "id": "Sba9ni Wechka",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Sba9ni Wechka"
+    },
+    {
+      "id": "Sensazione ultra",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sensazione ultra"
+    },
+    {
+      "id": "Sex View",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sex View"
+    },
+    {
+      "id": "Shams W 9amar",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Shams W 9amar"
+    },
+    {
+      "id": "Shweraa Tafia",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Shweraa Tafia"
+    },
+    {
+      "id": "Silent Success",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Silent Success"
+    },
+    {
+      "id": "Sindibad el Ward",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Sindibad el Ward"
+    },
+    {
+      "id": "Six Side",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Six Side"
+    },
+    {
+      "id": "Snini",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Snini"
+    },
+    {
+      "id": "Sobrevolando",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sobrevolando"
+    },
+    {
+      "id": "Soda",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Soda"
+    },
+    {
+      "id": "Souk",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Souk"
+    },
+    {
+      "id": "Spin The Block",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Spin The Block"
+    },
+    {
+      "id": "Streams",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Streams"
+    },
+    {
+      "id": "Streets of Africa (Freestyle)",
+      "type": "album",
+      "artists_count": 5,
+      "label": "Streets of Africa (Freestyle)"
+    },
+    {
+      "id": "Stuxnet",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Stuxnet"
+    },
+    {
+      "id": "Sur La T\u00eate De Ma M\u00e8re",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Sur La T\u00eate De Ma M\u00e8re"
+    },
+    {
+      "id": "TRAPLIFE",
+      "type": "album",
+      "artists_count": 1,
+      "label": "TRAPLIFE"
+    },
+    {
+      "id": "Tahki berasmi !!",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Tahki berasmi !!"
+    },
+    {
+      "id": "Tchedou m'debo [01 Mixtape]",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Tchedou m'debo [01 Mixtape]"
+    },
+    {
+      "id": "The Kid X",
+      "type": "album",
+      "artists_count": 2,
+      "label": "The Kid X"
+    },
+    {
+      "id": "The create",
+      "type": "album",
+      "artists_count": 2,
+      "label": "The create"
+    },
+    {
+      "id": "To The Glory",
+      "type": "album",
+      "artists_count": 1,
+      "label": "To The Glory"
+    },
+    {
+      "id": "Total Overdose",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Total Overdose"
+    },
+    {
+      "id": "Trafiquant",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Trafiquant"
+    },
+    {
+      "id": "Tribute To Cheb Terro / Pink Magic",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Tribute To Cheb Terro / Pink Magic"
+    },
+    {
+      "id": "Trippy Boyz",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Trippy Boyz"
+    },
+    {
+      "id": "Tutto Passa",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Tutto Passa"
+    },
+    {
+      "id": "Un D\u00eda Normal",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Un D\u00eda Normal"
+    },
+    {
+      "id": "Underradar V2",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Underradar V2"
+    },
+    {
+      "id": "VICE CITY",
+      "type": "album",
+      "artists_count": 3,
+      "label": "VICE CITY"
+    },
+    {
+      "id": "VICES",
+      "type": "album",
+      "artists_count": 3,
+      "label": "VICES"
+    },
+    {
+      "id": "VISION",
+      "type": "album",
+      "artists_count": 1,
+      "label": "VISION"
+    },
+    {
+      "id": "VOIR DIRE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "VOIR DIRE"
+    },
+    {
+      "id": "Va Bene",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Va Bene"
+    },
+    {
+      "id": "WA7LA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "WA7LA"
+    },
+    {
+      "id": "WARAREY",
+      "type": "album",
+      "artists_count": 2,
+      "label": "WARAREY"
+    },
+    {
+      "id": "WHO'S KID ! WHAT CITY !",
+      "type": "album",
+      "artists_count": 1,
+      "label": "WHO'S KID ! WHAT CITY !"
+    },
+    {
+      "id": "WORDS OF WEAKNESS",
+      "type": "album",
+      "artists_count": 2,
+      "label": "WORDS OF WEAKNESS"
+    },
+    {
+      "id": "Wahda Fada'ya",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Wahda Fada'ya"
+    },
+    {
+      "id": "Waves",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Waves"
+    },
+    {
+      "id": "We Battle The Shadows",
+      "type": "album",
+      "artists_count": 2,
+      "label": "We Battle The Shadows"
+    },
+    {
+      "id": "Wili",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Wili"
+    },
+    {
+      "id": "Win Mechin (Deluxe Version)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Win Mechin (Deluxe Version)"
+    },
+    {
+      "id": "YALLA",
+      "type": "album",
+      "artists_count": 1,
+      "label": "YALLA"
+    },
+    {
+      "id": "Ya Aazem Douar",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ya Aazem Douar"
+    },
+    {
+      "id": "Ya Ghayeb",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ya Ghayeb"
+    },
+    {
+      "id": "Ya Hbiba",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Ya Hbiba"
+    },
+    {
+      "id": "Yabanc\u0131",
+      "type": "album",
+      "artists_count": 3,
+      "label": "Yabanc\u0131"
+    },
+    {
+      "id": "Yamma",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Yamma"
+    },
+    {
+      "id": "Yeezus",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Yeezus"
+    },
+    {
+      "id": "Yemma",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Yemma"
+    },
+    {
+      "id": "Yeti",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Yeti"
+    },
+    {
+      "id": "Yeti (Deluxe)",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Yeti (Deluxe)"
+    },
+    {
+      "id": "Ymanny Manny",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Ymanny Manny"
+    },
+    {
+      "id": "Z1000",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Z1000"
+    },
+    {
+      "id": "Zayn",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Zayn"
+    },
+    {
+      "id": "Zidou",
+      "type": "album",
+      "artists_count": 2,
+      "label": "Zidou"
+    },
+    {
+      "id": "Zin Ezzin",
+      "type": "album",
+      "artists_count": 1,
+      "label": "Zin Ezzin"
+    },
+    {
+      "id": "channel ORANGE",
+      "type": "album",
+      "artists_count": 2,
+      "label": "channel ORANGE"
+    },
+    {
+      "id": "dos d'\u00e2ne",
+      "type": "album",
+      "artists_count": 2,
+      "label": "dos d'\u00e2ne"
+    },
+    {
+      "id": "hue_man nature",
+      "type": "album",
+      "artists_count": 2,
+      "label": "hue_man nature"
+    },
+    {
+      "id": "missing archives (deluxe edition)",
+      "type": "album",
+      "artists_count": 1,
+      "label": "missing archives (deluxe edition)"
+    },
+    {
+      "id": "thank you for waiting",
+      "type": "album",
+      "artists_count": 1,
+      "label": "thank you for waiting"
+    },
+    {
+      "id": "\u0628\u062d\u0631",
+      "type": "album",
+      "artists_count": 2,
+      "label": "\u0628\u062d\u0631"
+    },
+    {
+      "id": "\u062a\u0627\u0644\u0627\u0628\u064a\u0628",
+      "type": "album",
+      "artists_count": 1,
+      "label": "\u062a\u0627\u0644\u0627\u0628\u064a\u0628"
+    },
+    {
+      "id": "\u0630\u0643\u0631\u064a\u0627\u062a",
+      "type": "album",
+      "artists_count": 1,
+      "label": "\u0630\u0643\u0631\u064a\u0627\u062a"
+    },
+    {
+      "id": "\u0639\u062f\u0646\u0627\u0646 \u0648\u0644\u064a\u0646\u0627",
+      "type": "album",
+      "artists_count": 1,
+      "label": "\u0639\u062f\u0646\u0627\u0646 \u0648\u0644\u064a\u0646\u0627"
+    },
+    {
+      "id": "\u0639\u0642\u062f \u0627\u062d\u062a\u0631\u0627\u0641",
+      "type": "album",
+      "artists_count": 1,
+      "label": "\u0639\u0642\u062f \u0627\u062d\u062a\u0631\u0627\u0641"
+    },
+    {
+      "id": "\u0641\u064a \u0638\u0644\u0627\u0645 \u0627\u0644\u0644\u064a\u0644",
+      "type": "album",
+      "artists_count": 2,
+      "label": "\u0641\u064a \u0638\u0644\u0627\u0645 \u0627\u0644\u0644\u064a\u0644"
+    },
+    {
+      "id": "\u0645\u0645.. \u0645\u0627\u0643\u0644\u0629\u061f",
+      "type": "album",
+      "artists_count": 3,
+      "label": "\u0645\u0645.. \u0645\u0627\u0643\u0644\u0629\u061f"
+    },
+    {
+      "id": "Freddie Gibbs",
+      "type": "artist",
+      "label": "Freddie Gibbs"
+    },
+    {
+      "id": "Pas Comme Eux",
+      "type": "artist",
+      "label": "Pas Comme Eux"
+    },
+    {
+      "id": "Wingz",
+      "type": "artist",
+      "label": "Wingz"
+    },
+    {
+      "id": "Trippy Boyz",
+      "type": "artist",
+      "label": "Trippy Boyz"
+    },
+    {
+      "id": "Kaso",
+      "type": "artist",
+      "label": "Kaso"
+    },
+    {
+      "id": "DJ Psyico",
+      "type": "artist",
+      "label": "DJ Psyico"
+    },
+    {
+      "id": "DON PAC",
+      "type": "artist",
+      "label": "DON PAC"
+    },
+    {
+      "id": "YUNGMORPHEUS",
+      "type": "artist",
+      "label": "YUNGMORPHEUS"
+    },
+    {
+      "id": "D-Boy",
+      "type": "artist",
+      "label": "D-Boy"
+    },
+    {
+      "id": "Trappa",
+      "type": "artist",
+      "label": "Trappa"
+    },
+    {
+      "id": "Mizo-H",
+      "type": "artist",
+      "label": "Mizo-H"
+    },
+    {
+      "id": "K CAMP",
+      "type": "artist",
+      "label": "K CAMP"
+    },
+    {
+      "id": "Juanes",
+      "type": "artist",
+      "label": "Juanes"
+    },
+    {
+      "id": "Pazaman",
+      "type": "artist",
+      "label": "Pazaman"
+    },
+    {
+      "id": "Feddini",
+      "type": "artist",
+      "label": "Feddini"
+    },
+    {
+      "id": "EMP1RE",
+      "type": "artist",
+      "label": "EMP1RE"
+    },
+    {
+      "id": "Explicite",
+      "type": "artist",
+      "label": "Explicite"
+    },
+    {
+      "id": "EARTHGANG",
+      "type": "artist",
+      "label": "EARTHGANG"
+    },
+    {
+      "id": "Kanye West",
+      "type": "artist",
+      "label": "Kanye West"
+    },
+    {
+      "id": "Ta9chira",
+      "type": "artist",
+      "label": "Ta9chira"
+    },
+    {
+      "id": "Stou",
+      "type": "artist",
+      "label": "Stou"
+    },
+    {
+      "id": "It's ERROR",
+      "type": "artist",
+      "label": "It's ERROR"
+    },
+    {
+      "id": "Icxn",
+      "type": "artist",
+      "label": "Icxn"
+    },
+    {
+      "id": "Balti",
+      "type": "artist",
+      "label": "Balti"
+    },
+    {
+      "id": "Saba",
+      "type": "artist",
+      "label": "Saba"
+    },
+    {
+      "id": "NumbXiller",
+      "type": "artist",
+      "label": "NumbXiller"
+    },
+    {
+      "id": "Fresh",
+      "type": "artist",
+      "label": "Fresh"
+    },
+    {
+      "id": "A.L.A",
+      "type": "artist",
+      "label": "A.L.A"
+    },
+    {
+      "id": "Al Nather",
+      "type": "artist",
+      "label": "Al Nather"
+    },
+    {
+      "id": "DvrkBoy",
+      "type": "artist",
+      "label": "DvrkBoy"
+    },
+    {
+      "id": "ABA",
+      "type": "artist",
+      "label": "ABA"
+    },
+    {
+      "id": "Belhadj",
+      "type": "artist",
+      "label": "Belhadj"
+    },
+    {
+      "id": "GOUCHI",
+      "type": "artist",
+      "label": "GOUCHI"
+    },
+    {
+      "id": "Kyng Hooper",
+      "type": "artist",
+      "label": "Kyng Hooper"
+    },
+    {
+      "id": "Cheb Terro vs DJ Die Soon",
+      "type": "artist",
+      "label": "Cheb Terro vs DJ Die Soon"
+    },
+    {
+      "id": "Conway the Machine",
+      "type": "artist",
+      "label": "Conway the Machine"
+    },
+    {
+      "id": "Galaleo",
+      "type": "artist",
+      "label": "Galaleo"
+    },
+    {
+      "id": "Mahdy Madness",
+      "type": "artist",
+      "label": "Mahdy Madness"
+    },
+    {
+      "id": "SAFFWIZZ",
+      "type": "artist",
+      "label": "SAFFWIZZ"
+    },
+    {
+      "id": "BVNGBELV",
+      "type": "artist",
+      "label": "BVNGBELV"
+    },
+    {
+      "id": "Erkez Hiphop",
+      "type": "artist",
+      "label": "Erkez Hiphop"
+    },
+    {
+      "id": "XIIVI",
+      "type": "artist",
+      "label": "XIIVI"
+    },
+    {
+      "id": "Fossa",
+      "type": "artist",
+      "label": "Fossa"
+    },
+    {
+      "id": "Sanfara",
+      "type": "artist",
+      "label": "Sanfara"
+    },
+    {
+      "id": "billy woods",
+      "type": "artist",
+      "label": "billy woods"
+    },
+    {
+      "id": "COSMIC",
+      "type": "artist",
+      "label": "COSMIC"
+    },
+    {
+      "id": "NORDO",
+      "type": "artist",
+      "label": "NORDO"
+    },
+    {
+      "id": "John Mayer",
+      "type": "artist",
+      "label": "John Mayer"
+    },
+    {
+      "id": "Selim Arjoun",
+      "type": "artist",
+      "label": "Selim Arjoun"
+    },
+    {
+      "id": "Boldy James",
+      "type": "artist",
+      "label": "Boldy James"
+    },
+    {
+      "id": "Brahim Biskri",
+      "type": "artist",
+      "label": "Brahim Biskri"
+    },
+    {
+      "id": "Madou Mc",
+      "type": "artist",
+      "label": "Madou Mc"
+    },
+    {
+      "id": "Taymour",
+      "type": "artist",
+      "label": "Taymour"
+    },
+    {
+      "id": "J. Cole",
+      "type": "artist",
+      "label": "J. Cole"
+    },
+    {
+      "id": "1da-Toul",
+      "type": "artist",
+      "label": "1da-Toul"
+    },
+    {
+      "id": "Pureconic",
+      "type": "artist",
+      "label": "Pureconic"
+    },
+    {
+      "id": "Roc Marciano",
+      "type": "artist",
+      "label": "Roc Marciano"
+    },
+    {
+      "id": "Sabry Mosbah",
+      "type": "artist",
+      "label": "Sabry Mosbah"
+    },
+    {
+      "id": "Blingos",
+      "type": "artist",
+      "label": "Blingos"
+    },
+    {
+      "id": "L2",
+      "type": "artist",
+      "label": "L2"
+    },
+    {
+      "id": "666GNG",
+      "type": "artist",
+      "label": "666GNG"
+    },
+    {
+      "id": "Cheb Bachir",
+      "type": "artist",
+      "label": "Cheb Bachir"
+    },
+    {
+      "id": "No ID",
+      "type": "artist",
+      "label": "No ID"
+    },
+    {
+      "id": "DJ Hrizen",
+      "type": "artist",
+      "label": "DJ Hrizen"
+    },
+    {
+      "id": "4lfa",
+      "type": "artist",
+      "label": "4lfa"
+    },
+    {
+      "id": "Cheb terro",
+      "type": "artist",
+      "label": "Cheb terro"
+    },
+    {
+      "id": "Trax",
+      "type": "artist",
+      "label": "Trax"
+    },
+    {
+      "id": "Soldjvt",
+      "type": "artist",
+      "label": "Soldjvt"
+    },
+    {
+      "id": "The Notorious B.I.G.",
+      "type": "artist",
+      "label": "The Notorious B.I.G."
+    },
+    {
+      "id": "Rowlan",
+      "type": "artist",
+      "label": "Rowlan"
+    },
+    {
+      "id": "Tiga Blackna",
+      "type": "artist",
+      "label": "Tiga Blackna"
+    },
+    {
+      "id": "Halim yousfi",
+      "type": "artist",
+      "label": "Halim yousfi"
+    },
+    {
+      "id": "Rome Streetz",
+      "type": "artist",
+      "label": "Rome Streetz"
+    },
+    {
+      "id": "Jon Connor",
+      "type": "artist",
+      "label": "Jon Connor"
+    },
+    {
+      "id": "Stove God Cooks",
+      "type": "artist",
+      "label": "Stove God Cooks"
+    },
+    {
+      "id": "Myne",
+      "type": "artist",
+      "label": "Myne"
+    },
+    {
+      "id": "G.G.A",
+      "type": "artist",
+      "label": "G.G.A"
+    },
+    {
+      "id": "ZDEFF",
+      "type": "artist",
+      "label": "ZDEFF"
+    },
+    {
+      "id": "Abdeelgha4",
+      "type": "artist",
+      "label": "Abdeelgha4"
+    },
+    {
+      "id": "prodby444",
+      "type": "artist",
+      "label": "prodby444"
+    },
+    {
+      "id": "BAYA",
+      "type": "artist",
+      "label": "BAYA"
+    },
+    {
+      "id": "NAD",
+      "type": "artist",
+      "label": "NAD"
+    },
+    {
+      "id": "Earl Sweatshirt",
+      "type": "artist",
+      "label": "Earl Sweatshirt"
+    },
+    {
+      "id": "JID",
+      "type": "artist",
+      "label": "JID"
+    },
+    {
+      "id": "Yousfi",
+      "type": "artist",
+      "label": "Yousfi"
+    },
+    {
+      "id": "Ussef",
+      "type": "artist",
+      "label": "Ussef"
+    },
+    {
+      "id": "SiR",
+      "type": "artist",
+      "label": "SiR"
+    },
+    {
+      "id": "Danny Brown",
+      "type": "artist",
+      "label": "Danny Brown"
+    },
+    {
+      "id": "Ktyb",
+      "type": "artist",
+      "label": "Ktyb"
+    },
+    {
+      "id": "RARE",
+      "type": "artist",
+      "label": "RARE"
+    },
+    {
+      "id": "El Ayo",
+      "type": "artist",
+      "label": "El Ayo"
+    },
+    {
+      "id": "Mahdi Machfar",
+      "type": "artist",
+      "label": "Mahdi Machfar"
+    },
+    {
+      "id": "Ratacid",
+      "type": "artist",
+      "label": "Ratacid"
+    },
+    {
+      "id": "TOXICOLOGY LABEL",
+      "type": "artist",
+      "label": "TOXICOLOGY LABEL"
+    },
+    {
+      "id": "Larry June",
+      "type": "artist",
+      "label": "Larry June"
+    },
+    {
+      "id": "Katori Walker",
+      "type": "artist",
+      "label": "Katori Walker"
+    },
+    {
+      "id": "El Castro",
+      "type": "artist",
+      "label": "El Castro"
+    },
+    {
+      "id": "Pedro Guerra",
+      "type": "artist",
+      "label": "Pedro Guerra"
+    },
+    {
+      "id": "TIF",
+      "type": "artist",
+      "label": "TIF"
+    },
+    {
+      "id": "WECIM",
+      "type": "artist",
+      "label": "WECIM"
+    },
+    {
+      "id": "Artmasta",
+      "type": "artist",
+      "label": "Artmasta"
+    },
+    {
+      "id": "LoopLion",
+      "type": "artist",
+      "label": "LoopLion"
+    },
+    {
+      "id": "Vipa",
+      "type": "artist",
+      "label": "Vipa"
+    },
+    {
+      "id": "Mouka",
+      "type": "artist",
+      "label": "Mouka"
+    },
+    {
+      "id": "Mortadha Ftiti",
+      "type": "artist",
+      "label": "Mortadha Ftiti"
+    },
+    {
+      "id": "Samara",
+      "type": "artist",
+      "label": "Samara"
+    },
+    {
+      "id": "Defame",
+      "type": "artist",
+      "label": "Defame"
+    },
+    {
+      "id": "Matsuda",
+      "type": "artist",
+      "label": "Matsuda"
+    },
+    {
+      "id": "VRITRA",
+      "type": "artist",
+      "label": "VRITRA"
+    },
+    {
+      "id": "Young Rz",
+      "type": "artist",
+      "label": "Young Rz"
+    },
+    {
+      "id": "Catcher",
+      "type": "artist",
+      "label": "Catcher"
+    },
+    {
+      "id": "Na$s 2y2",
+      "type": "artist",
+      "label": "Na$s 2y2"
+    },
+    {
+      "id": "HTB",
+      "type": "artist",
+      "label": "HTB"
+    },
+    {
+      "id": "Curren$y",
+      "type": "artist",
+      "label": "Curren$y"
+    },
+    {
+      "id": "Harry Fraud",
+      "type": "artist",
+      "label": "Harry Fraud"
+    },
+    {
+      "id": "Zaineb",
+      "type": "artist",
+      "label": "Zaineb"
+    },
+    {
+      "id": "Junior Hassen",
+      "type": "artist",
+      "label": "Junior Hassen"
+    },
+    {
+      "id": "Methlab",
+      "type": "artist",
+      "label": "Methlab"
+    },
+    {
+      "id": "GAL3Y",
+      "type": "artist",
+      "label": "GAL3Y"
+    },
+    {
+      "id": "Snoopy the highest",
+      "type": "artist",
+      "label": "Snoopy the highest"
+    },
+    {
+      "id": "NVST",
+      "type": "artist",
+      "label": "NVST"
+    },
+    {
+      "id": "Tabac Roule",
+      "type": "artist",
+      "label": "Tabac Roule"
+    },
+    {
+      "id": "DJ Die Soon",
+      "type": "artist",
+      "label": "DJ Die Soon"
+    },
+    {
+      "id": "Sharifa Jamal",
+      "type": "artist",
+      "label": "Sharifa Jamal"
+    },
+    {
+      "id": "FIN",
+      "type": "artist",
+      "label": "FIN"
+    },
+    {
+      "id": "Dhalma",
+      "type": "artist",
+      "label": "Dhalma"
+    },
+    {
+      "id": "DACHI",
+      "type": "artist",
+      "label": "DACHI"
+    },
+    {
+      "id": "El Big Five",
+      "type": "artist",
+      "label": "El Big Five"
+    },
+    {
+      "id": "Pink Siifu",
+      "type": "artist",
+      "label": "Pink Siifu"
+    },
+    {
+      "id": "OXYJHIN",
+      "type": "artist",
+      "label": "OXYJHIN"
+    },
+    {
+      "id": "20fyee",
+      "type": "artist",
+      "label": "20fyee"
+    },
+    {
+      "id": "M.A",
+      "type": "artist",
+      "label": "M.A"
+    },
+    {
+      "id": "Gharam Electric",
+      "type": "artist",
+      "label": "Gharam Electric"
+    },
+    {
+      "id": "Racha Rizk",
+      "type": "artist",
+      "label": "Racha Rizk"
+    },
+    {
+      "id": "Blanka",
+      "type": "artist",
+      "label": "Blanka"
+    },
+    {
+      "id": "SALTY TEA",
+      "type": "artist",
+      "label": "SALTY TEA"
+    },
+    {
+      "id": "Kiev",
+      "type": "artist",
+      "label": "Kiev"
+    },
+    {
+      "id": "Linko",
+      "type": "artist",
+      "label": "Linko"
+    },
+    {
+      "id": "SIXBOI",
+      "type": "artist",
+      "label": "SIXBOI"
+    },
+    {
+      "id": "7Baby",
+      "type": "artist",
+      "label": "7Baby"
+    },
+    {
+      "id": "Brotherhood Family",
+      "type": "artist",
+      "label": "Brotherhood Family"
+    },
+    {
+      "id": "M.S.I",
+      "type": "artist",
+      "label": "M.S.I"
+    },
+    {
+      "id": "Frank Ocean",
+      "type": "artist",
+      "label": "Frank Ocean"
+    },
+    {
+      "id": "Zomra A.L.a",
+      "type": "artist",
+      "label": "Zomra A.L.a"
+    },
+    {
+      "id": "Ghali",
+      "type": "artist",
+      "label": "Ghali"
+    },
+    {
+      "id": "USCHIHA",
+      "type": "artist",
+      "label": "USCHIHA"
+    },
+    {
+      "id": "Cultura Prof\u00e9tica",
+      "type": "artist",
+      "label": "Cultura Prof\u00e9tica"
+    },
+    {
+      "id": "90s Shawty",
+      "type": "artist",
+      "label": "90s Shawty"
+    },
+    {
+      "id": "Westside Gunn",
+      "type": "artist",
+      "label": "Westside Gunn"
+    },
+    {
+      "id": "$MXTI",
+      "type": "artist",
+      "label": "$MXTI"
+    },
+    {
+      "id": "Amir Eid",
+      "type": "artist",
+      "label": "Amir Eid"
+    },
+    {
+      "id": "KHLNZYY",
+      "type": "artist",
+      "label": "KHLNZYY"
+    },
+    {
+      "id": "Bo9al",
+      "type": "artist",
+      "label": "Bo9al"
+    },
+    {
+      "id": "khadhraoui ghaith",
+      "type": "artist",
+      "label": "khadhraoui ghaith"
+    },
+    {
+      "id": "Hedi Donia",
+      "type": "artist",
+      "label": "Hedi Donia"
+    },
+    {
+      "id": "Ily",
+      "type": "artist",
+      "label": "Ily"
+    },
+    {
+      "id": "Omara",
+      "type": "artist",
+      "label": "Omara"
+    },
+    {
+      "id": "John Six",
+      "type": "artist",
+      "label": "John Six"
+    },
+    {
+      "id": "Junior",
+      "type": "artist",
+      "label": "Junior"
+    },
+    {
+      "id": "Emel",
+      "type": "artist",
+      "label": "Emel"
+    },
+    {
+      "id": "RamsJamsss",
+      "type": "artist",
+      "label": "RamsJamsss"
+    },
+    {
+      "id": "DEJ",
+      "type": "artist",
+      "label": "DEJ"
+    },
+    {
+      "id": "FrenchSo Beats",
+      "type": "artist",
+      "label": "FrenchSo Beats"
+    },
+    {
+      "id": "Lil' K",
+      "type": "artist",
+      "label": "Lil' K"
+    },
+    {
+      "id": "Ratchopper",
+      "type": "artist",
+      "label": "Ratchopper"
+    },
+    {
+      "id": "Flucci",
+      "type": "artist",
+      "label": "Flucci"
+    },
+    {
+      "id": "Onda Vaga",
+      "type": "artist",
+      "label": "Onda Vaga"
+    },
+    {
+      "id": "Bloody",
+      "type": "artist",
+      "label": "Bloody"
+    },
+    {
+      "id": "Didou Parisien",
+      "type": "artist",
+      "label": "Didou Parisien"
+    },
+    {
+      "id": "Aymen Lessigue",
+      "type": "artist",
+      "label": "Aymen Lessigue"
+    },
+    {
+      "id": "R2LF5",
+      "type": "artist",
+      "label": "R2LF5"
+    },
+    {
+      "id": "Naqqa",
+      "type": "artist",
+      "label": "Naqqa"
+    },
+    {
+      "id": "BAD KA$H",
+      "type": "artist",
+      "label": "BAD KA$H"
+    },
+    {
+      "id": "Lakrush",
+      "type": "artist",
+      "label": "Lakrush"
+    },
+    {
+      "id": "Donga",
+      "type": "artist",
+      "label": "Donga"
+    },
+    {
+      "id": "BadBoy 7low",
+      "type": "artist",
+      "label": "BadBoy 7low"
+    },
+    {
+      "id": "MARROUKI",
+      "type": "artist",
+      "label": "MARROUKI"
+    },
+    {
+      "id": "Noor Arjoun",
+      "type": "artist",
+      "label": "Noor Arjoun"
+    },
+    {
+      "id": "KADDY",
+      "type": "artist",
+      "label": "KADDY"
+    },
+    {
+      "id": "dopeman",
+      "type": "artist",
+      "label": "dopeman"
+    },
+    {
+      "id": "La Fine Equipe",
+      "type": "artist",
+      "label": "La Fine Equipe"
+    },
+    {
+      "id": "Marwan Moussa",
+      "type": "artist",
+      "label": "Marwan Moussa"
+    },
+    {
+      "id": "OhSlim",
+      "type": "artist",
+      "label": "OhSlim"
+    },
+    {
+      "id": "JenJoon",
+      "type": "artist",
+      "label": "JenJoon"
+    },
+    {
+      "id": "Gharga",
+      "type": "artist",
+      "label": "Gharga"
+    },
+    {
+      "id": "Dryveins",
+      "type": "artist",
+      "label": "Dryveins"
+    },
+    {
+      "id": "Roddy Ricch",
+      "type": "artist",
+      "label": "Roddy Ricch"
+    },
+    {
+      "id": "Kenny Segal",
+      "type": "artist",
+      "label": "Kenny Segal"
+    },
+    {
+      "id": "Sc Papi",
+      "type": "artist",
+      "label": "Sc Papi"
+    },
+    {
+      "id": "DAMAXGE",
+      "type": "artist",
+      "label": "DAMAXGE"
+    },
+    {
+      "id": "The Alchemist",
+      "type": "artist",
+      "label": "The Alchemist"
+    },
+    {
+      "id": "Katybon",
+      "type": "artist",
+      "label": "Katybon"
+    },
+    {
+      "id": "LUAS",
+      "type": "artist",
+      "label": "LUAS"
+    },
+    {
+      "id": "Mahdigreb",
+      "type": "artist",
+      "label": "Mahdigreb"
+    },
+    {
+      "id": "Dawan",
+      "type": "artist",
+      "label": "Dawan"
+    },
+    {
+      "id": "Tati G13",
+      "type": "artist",
+      "label": "Tati G13"
+    },
+    {
+      "id": "ElMassi",
+      "type": "artist",
+      "label": "ElMassi"
+    },
+    {
+      "id": "Shabjdeed",
+      "type": "artist",
+      "label": "Shabjdeed"
+    },
+    {
+      "id": "Hamdi Ryder",
+      "type": "artist",
+      "label": "Hamdi Ryder"
+    },
+    {
+      "id": "BAXV",
+      "type": "artist",
+      "label": "BAXV"
+    }
+  ],
+  "edges": [
+    {
+      "source": "01:00 AM",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "01:00 AM",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "01:00 AM",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "01:00 AM",
+      "target": "It's ERROR",
+      "weight": 1
+    },
+    {
+      "source": "05:01 AM",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "05:01 AM",
+      "target": "20fyee",
+      "weight": 1
+    },
+    {
+      "source": "05:01 AM",
+      "target": "Pas Comme Eux",
+      "weight": 1
+    },
+    {
+      "source": "1.6",
+      "target": "TIF",
+      "weight": 1
+    },
+    {
+      "source": "10 Marra",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "105",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "105",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "1221",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "2000 Ktab",
+      "target": "Mortadha Ftiti",
+      "weight": 1
+    },
+    {
+      "source": "29 DECEMBER",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "29 DECEMBER",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "29 DECEMBER",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "3021",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "3eres edhib",
+      "target": "Naqqa",
+      "weight": 1
+    },
+    {
+      "source": "3inik El Souda",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "3inik El Souda",
+      "target": "Lakrush",
+      "weight": 1
+    },
+    {
+      "source": "5amsa li la7gou bil jorra ( with Vipa & Tiga Blackna)",
+      "target": "Erkez Hiphop",
+      "weight": 1
+    },
+    {
+      "source": "6.Ila",
+      "target": "G.G.A",
+      "weight": 1
+    },
+    {
+      "source": "6.Ila",
+      "target": "M.S.I",
+      "weight": 1
+    },
+    {
+      "source": "6IX 8UIT",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "6IX 8UIT",
+      "target": "MARROUKI",
+      "weight": 1
+    },
+    {
+      "source": "6IX 8UIT",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "7100",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "888 Freestyle",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "999",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "999",
+      "target": "TOXICOLOGY LABEL",
+      "weight": 1
+    },
+    {
+      "source": "9K32",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "9OLI CHKOUN",
+      "target": "RARE",
+      "weight": 1
+    },
+    {
+      "source": "A7lemi Tayra",
+      "target": "D-Boy",
+      "weight": 1
+    },
+    {
+      "source": "AADHEBI",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "ABC",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "ADRENALINE",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "ADRENALINE",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "AIINA",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "AIRMAX",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "AIRMAX",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "AIRMAX",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "AKADHIB",
+      "target": "John Six",
+      "weight": 1
+    },
+    {
+      "source": "AKADHIB",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "AKADHIB",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "ALELI",
+      "target": "COSMIC",
+      "weight": 1
+    },
+    {
+      "source": "ALIVE",
+      "target": "Soldjvt",
+      "weight": 1
+    },
+    {
+      "source": "ALMOST FAMOUS",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "ALMOST FAMOUS",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "ALMOST FAMOUS",
+      "target": "Pas Comme Eux",
+      "weight": 1
+    },
+    {
+      "source": "APEX",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "APEX",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "APOLLO",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "APOLLO",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "APOLLO",
+      "target": "Kiev",
+      "weight": 1
+    },
+    {
+      "source": "ARSON",
+      "target": "COSMIC",
+      "weight": 1
+    },
+    {
+      "source": "ASSASSIN",
+      "target": "OhSlim",
+      "weight": 1
+    },
+    {
+      "source": "ASSASSIN",
+      "target": "prodby444",
+      "weight": 1
+    },
+    {
+      "source": "ASSASSIN",
+      "target": "M.A",
+      "weight": 1
+    },
+    {
+      "source": "Aayech Maak",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Adheka Libik",
+      "target": "Vipa",
+      "weight": 1
+    },
+    {
+      "source": "Afyoon",
+      "target": "LUAS",
+      "weight": 1
+    },
+    {
+      "source": "Afyoon",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "Age Began Counting",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "Al Wa7Da",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "All Mah N***",
+      "target": "Tabac Roule",
+      "weight": 1
+    },
+    {
+      "source": "All Mah N***",
+      "target": "It's ERROR",
+      "weight": 1
+    },
+    {
+      "source": "All Mah N***",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Alone",
+      "target": "Ily",
+      "weight": 1
+    },
+    {
+      "source": "Alone",
+      "target": "Sanfara",
+      "weight": 1
+    },
+    {
+      "source": "Ambiance mariage tunisien (Mix Non Stop)",
+      "target": "Brahim Biskri",
+      "weight": 1
+    },
+    {
+      "source": "Aradinha",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Astronaute",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "Astronaute",
+      "target": "Ta9chira",
+      "weight": 1
+    },
+    {
+      "source": "BAD ANGEL",
+      "target": "Naqqa",
+      "weight": 1
+    },
+    {
+      "source": "BASTA.",
+      "target": "ZDEFF",
+      "weight": 1
+    },
+    {
+      "source": "BAYAN",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "BAYAN",
+      "target": "EMP1RE",
+      "weight": 1
+    },
+    {
+      "source": "BENDO",
+      "target": "Ussef",
+      "weight": 1
+    },
+    {
+      "source": "BENDO",
+      "target": "M.A",
+      "weight": 1
+    },
+    {
+      "source": "BIG L",
+      "target": "Snoopy the highest",
+      "weight": 1
+    },
+    {
+      "source": "BOOTCAMP",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "BOOTCAMP DELUXE",
+      "target": "Explicite",
+      "weight": 1
+    },
+    {
+      "source": "BOOTCAMP DELUXE",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "BRAZIL",
+      "target": "RARE",
+      "weight": 1
+    },
+    {
+      "source": "BVB",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "Baba",
+      "target": "Mortadha Ftiti",
+      "weight": 1
+    },
+    {
+      "source": "Baba Lakorza Lant5a",
+      "target": "MARROUKI",
+      "weight": 1
+    },
+    {
+      "source": "Baba Lakorza Lant5a",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "Bad Trip 2",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Bag Talk",
+      "target": "YUNGMORPHEUS",
+      "weight": 1
+    },
+    {
+      "source": "Bag Talk",
+      "target": "Pink Siifu",
+      "weight": 1
+    },
+    {
+      "source": "Bag Talk",
+      "target": "VRITRA",
+      "weight": 1
+    },
+    {
+      "source": "Balance",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Bambina",
+      "target": "Bo9al",
+      "weight": 1
+    },
+    {
+      "source": "Bambina",
+      "target": "Mouka",
+      "weight": 1
+    },
+    {
+      "source": "Barrani",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Be Careful 2",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "Be Careful 2",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "Belekchi Na El Ghalet",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Binetna Layem",
+      "target": "D-Boy",
+      "weight": 1
+    },
+    {
+      "source": "Bo Jackson",
+      "target": "The Alchemist",
+      "weight": 1
+    },
+    {
+      "source": "Bo Jackson",
+      "target": "Stove God Cooks",
+      "weight": 1
+    },
+    {
+      "source": "Bo Jackson",
+      "target": "Boldy James",
+      "weight": 1
+    },
+    {
+      "source": "Bon Vent",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Bon Vent",
+      "target": "Mahdi Machfar",
+      "weight": 1
+    },
+    {
+      "source": "Bon Vent",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "Bonsoir",
+      "target": "Stou",
+      "weight": 1
+    },
+    {
+      "source": "Bounce Back",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "Bye Bye Lmiziria (Remix)",
+      "target": "Didou Parisien",
+      "weight": 1
+    },
+    {
+      "source": "Bye Bye Lmiziria (Remix)",
+      "target": "DJ Psyico",
+      "weight": 1
+    },
+    {
+      "source": "CANADA",
+      "target": "90s Shawty",
+      "weight": 1
+    },
+    {
+      "source": "CANADA",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "DAMAXGE",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "dopeman",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "Methlab",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "CHAGATO",
+      "target": "NAD",
+      "weight": 1
+    },
+    {
+      "source": "CHARISMA",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "CHARISMA",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "CHARIZARD (LONG LIVE 12.6)",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "CHEB TERRO VS DJ DIE SOON",
+      "target": "Cheb Terro vs DJ Die Soon",
+      "weight": 1
+    },
+    {
+      "source": "CHED ROUTE",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "CHED ROUTE",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "CHED ROUTE",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "CHED ROUTE",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "CHEF",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "CHIKOUR",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "COLLECTION OF CHEB TERRO X DJ HRIZEN",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "COLLECTION OF CHEB TERRO X DJ HRIZEN",
+      "target": "DJ Hrizen",
+      "weight": 1
+    },
+    {
+      "source": "CRIMINALZ",
+      "target": "BAD KA$H",
+      "weight": 1
+    },
+    {
+      "source": "CRIMINALZ",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "CRIMINALZ",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "CRIMINALZ",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Cash & Pouvoir",
+      "target": "ABA",
+      "weight": 1
+    },
+    {
+      "source": "Cheb Terro vs. DJ Die Soon",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Cheb Terro vs. DJ Die Soon",
+      "target": "DJ Die Soon",
+      "weight": 1
+    },
+    {
+      "source": "Chopard",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Contigo En La Distancia",
+      "target": "Pedro Guerra",
+      "weight": 1
+    },
+    {
+      "source": "Couscous Connection",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Crash Out",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "DAMAGE",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "DAMAGE",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "DDT",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "DDT",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "DEBO Maya3rfouch [00 Mixtape]",
+      "target": "Katybon",
+      "weight": 1
+    },
+    {
+      "source": "DEBO Maya3rfouch [00 Mixtape]",
+      "target": "Trappa",
+      "weight": 1
+    },
+    {
+      "source": "DEBO Maya3rfouch [00 Mixtape]",
+      "target": "Pazaman",
+      "weight": 1
+    },
+    {
+      "source": "DEBO Maya3rfouch [00 Mixtape]",
+      "target": "Vipa",
+      "weight": 1
+    },
+    {
+      "source": "DECEMBER",
+      "target": "R2LF5",
+      "weight": 1
+    },
+    {
+      "source": "DECEMBER",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "DECLIC",
+      "target": "Trax",
+      "weight": 1
+    },
+    {
+      "source": "DECLIC",
+      "target": "Dawan",
+      "weight": 1
+    },
+    {
+      "source": "DECLIC",
+      "target": "Madou Mc",
+      "weight": 1
+    },
+    {
+      "source": "DEVIL",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "DISTANCE",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "DISTANCE",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "DOPAMINE",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "DOPAMINE",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "Dayem Allah",
+      "target": "FrenchSo Beats",
+      "weight": 1
+    },
+    {
+      "source": "Dayem Allah",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Dead Face",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Deep Web",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Dhlem Lil",
+      "target": "Zaineb",
+      "weight": 1
+    },
+    {
+      "source": "Dhlem Lil",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Dima Mechi (\u062f\u064a\u0645\u0627 \u0645\u0627\u0634\u064a)",
+      "target": "Balti",
+      "weight": 1
+    },
+    {
+      "source": "Drynie's World",
+      "target": "Dryveins",
+      "weight": 1
+    },
+    {
+      "source": "Drynie's World",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "EASTCOASTSTORY: lifestyles",
+      "target": "COSMIC",
+      "weight": 1
+    },
+    {
+      "source": "EL DAR",
+      "target": "LUAS",
+      "weight": 1
+    },
+    {
+      "source": "EL DAR",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "EN MI CABEZA",
+      "target": "KHLNZYY",
+      "weight": 1
+    },
+    {
+      "source": "ENCORE",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "El wa7da",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Ellil",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Ena Wayek",
+      "target": "NORDO",
+      "weight": 1
+    },
+    {
+      "source": "Ensen",
+      "target": "Emel",
+      "weight": 1
+    },
+    {
+      "source": "Erwah",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "Erwah",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "Exit",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "FAMA FLOU$",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "FAMA FLOU$",
+      "target": "Pas Comme Eux",
+      "weight": 1
+    },
+    {
+      "source": "FAMA FLOU$",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "FAMA FLOU$",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "FAMA FLOU$",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "FI9",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "FI9",
+      "target": "Mizo-H",
+      "weight": 1
+    },
+    {
+      "source": "FINGZ SE4SON",
+      "target": "FIN",
+      "weight": 1
+    },
+    {
+      "source": "FINGZ SE4SON",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "FINGZ SE4SON",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "FOG JUICE",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "FOG JUICE",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "FUCK THE KID .. AND THE CITY",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Faces",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "Faces",
+      "target": "Ratchopper",
+      "weight": 1
+    },
+    {
+      "source": "Ferrero Rocher",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "Fetti",
+      "target": "The Alchemist",
+      "weight": 1
+    },
+    {
+      "source": "Fetti",
+      "target": "Curren$y",
+      "weight": 1
+    },
+    {
+      "source": "Fetti",
+      "target": "Freddie Gibbs",
+      "weight": 1
+    },
+    {
+      "source": "Fire",
+      "target": "Linko",
+      "weight": 1
+    },
+    {
+      "source": "Fire",
+      "target": "Lil' K",
+      "weight": 1
+    },
+    {
+      "source": "Flouss w Massayeb",
+      "target": "Soldjvt",
+      "weight": 1
+    },
+    {
+      "source": "Flouss w Massayeb",
+      "target": "Sc Papi",
+      "weight": 1
+    },
+    {
+      "source": "Flygod Is An Awesome God 2",
+      "target": "Westside Gunn",
+      "weight": 1
+    },
+    {
+      "source": "Four Seasons One Climate",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Four Seasons One Climate",
+      "target": "USCHIHA",
+      "weight": 1
+    },
+    {
+      "source": "Freestyle",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "Fuerte Y Caliente",
+      "target": "Onda Vaga",
+      "weight": 1
+    },
+    {
+      "source": "Fusion",
+      "target": "KHLNZYY",
+      "weight": 1
+    },
+    {
+      "source": "Fusion",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "GEN Z",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "GEN Z",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "GHETTO GODS",
+      "target": "EARTHGANG",
+      "weight": 1
+    },
+    {
+      "source": "GHETTO GODS",
+      "target": "J. Cole",
+      "weight": 1
+    },
+    {
+      "source": "GHETTO GODS",
+      "target": "JID",
+      "weight": 1
+    },
+    {
+      "source": "GOLDEN GOD",
+      "target": "WECIM",
+      "weight": 1
+    },
+    {
+      "source": "GOLDEN GOD",
+      "target": "Pas Comme Eux",
+      "weight": 1
+    },
+    {
+      "source": "GOLDEN GOD",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "GOOD KID TOXIC CITY.",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "GTO",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "GTO",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Gen Z",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Gen Z",
+      "target": "Dryveins",
+      "weight": 1
+    },
+    {
+      "source": "Gen Z",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "Ghaba",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Ghara9",
+      "target": "FIN",
+      "weight": 1
+    },
+    {
+      "source": "Ghara9",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Gharghour Elil",
+      "target": "El Big Five",
+      "weight": 1
+    },
+    {
+      "source": "Ghassil Dimegh",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Ghassil Dimegh",
+      "target": "GAL3Y",
+      "weight": 1
+    },
+    {
+      "source": "Ghassil Dimegh",
+      "target": "SIXBOI",
+      "weight": 1
+    },
+    {
+      "source": "Ghazali",
+      "target": "NORDO",
+      "weight": 1
+    },
+    {
+      "source": "Ghazali",
+      "target": "John Six",
+      "weight": 1
+    },
+    {
+      "source": "Ghazali",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Ghost",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Ghost",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Ghram",
+      "target": "G.G.A",
+      "weight": 1
+    },
+    {
+      "source": "Ghram",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Greatest Hits",
+      "target": "The Notorious B.I.G.",
+      "weight": 1
+    },
+    {
+      "source": "Green Virus",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "HEISEINBVNG",
+      "target": "KHLNZYY",
+      "weight": 1
+    },
+    {
+      "source": "HEISEINBVNG",
+      "target": "BVNGBELV",
+      "weight": 1
+    },
+    {
+      "source": "HET",
+      "target": "Gharga",
+      "weight": 1
+    },
+    {
+      "source": "HET",
+      "target": "M.A",
+      "weight": 1
+    },
+    {
+      "source": "HIDEOUT",
+      "target": "FIN",
+      "weight": 1
+    },
+    {
+      "source": "HIDEOUT",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "HOLD UP",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "HOLD UP",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "HOOKLESS",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "Hall & Nash 2",
+      "target": "Conway the Machine",
+      "weight": 1
+    },
+    {
+      "source": "Hall & Nash 2",
+      "target": "The Alchemist",
+      "weight": 1
+    },
+    {
+      "source": "Hall & Nash 2",
+      "target": "Westside Gunn",
+      "weight": 1
+    },
+    {
+      "source": "Happy Hour",
+      "target": "Stou",
+      "weight": 1
+    },
+    {
+      "source": "Hayala",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Hybrid",
+      "target": "RARE",
+      "weight": 1
+    },
+    {
+      "source": "Hybrid",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "I3ARA",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "IMMORTAL CAESAR",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "INFAMOUS",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "INFAMOUS",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "INFRARED",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "It's hard to break a habit",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "It's hard to break a habit",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "It's hard to break a habit",
+      "target": "El Ayo",
+      "weight": 1
+    },
+    {
+      "source": "JAD ALIK",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "John Redcorn - A COLORS SHOW",
+      "target": "SiR",
+      "weight": 1
+    },
+    {
+      "source": "KARMA",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "KARMA",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "KHOYA",
+      "target": "RARE",
+      "weight": 1
+    },
+    {
+      "source": "KING VON",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "KISS THE RING",
+      "target": "Rome Streetz",
+      "weight": 1
+    },
+    {
+      "source": "KONT NKHAF 3LIK MEN NAAR",
+      "target": "Kaso",
+      "weight": 1
+    },
+    {
+      "source": "KWIKA",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "Ka7la Stella",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Keema Ena",
+      "target": "NORDO",
+      "weight": 1
+    },
+    {
+      "source": "Kevin-Prince Boateng",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "Kevin-Prince Boateng",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "Khousara",
+      "target": "Mouka",
+      "weight": 1
+    },
+    {
+      "source": "Kifech Twali Rappeur",
+      "target": "Mizo-H",
+      "weight": 1
+    },
+    {
+      "source": "Koulou Banat",
+      "target": "Gharam Electric",
+      "weight": 1
+    },
+    {
+      "source": "La Dulzura",
+      "target": "Cultura Prof\u00e9tica",
+      "weight": 1
+    },
+    {
+      "source": "La boulangerie (Back Burners)",
+      "target": "Blanka",
+      "weight": 1
+    },
+    {
+      "source": "La boulangerie (Back Burners)",
+      "target": "La Fine Equipe",
+      "weight": 1
+    },
+    {
+      "source": "Lahmer Album",
+      "target": "G.G.A",
+      "weight": 1
+    },
+    {
+      "source": "Lahmer Mixtape",
+      "target": "G.G.A",
+      "weight": 1
+    },
+    {
+      "source": "Layam",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "M3ANDI",
+      "target": "OhSlim",
+      "weight": 1
+    },
+    {
+      "source": "M3ANDI",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "M3ANDI",
+      "target": "M.A",
+      "weight": 1
+    },
+    {
+      "source": "M9ass Ennar",
+      "target": "Stou",
+      "weight": 1
+    },
+    {
+      "source": "MANNENI",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "MANNENI",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "MESTWI",
+      "target": "DON PAC",
+      "weight": 1
+    },
+    {
+      "source": "MESTWI",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "METHANOL 62",
+      "target": "Mahdy Madness",
+      "weight": 1
+    },
+    {
+      "source": "METHANOL 62",
+      "target": "KADDY",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP",
+      "target": "Kyng Hooper",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP",
+      "target": "Halim yousfi",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP FM (Deluxe)",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP FM (Deluxe)",
+      "target": "Icxn",
+      "weight": 1
+    },
+    {
+      "source": "METRO EL RAP FM (Deluxe)",
+      "target": "Defame",
+      "weight": 1
+    },
+    {
+      "source": "MIA KHALIFA",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "MORPH",
+      "target": "Snoopy the highest",
+      "weight": 1
+    },
+    {
+      "source": "MOSHPITTAPE VOL 1",
+      "target": "666GNG",
+      "weight": 1
+    },
+    {
+      "source": "MOSHPITTAPE VOL 1",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "MOTIVATION",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "MOTIVATION",
+      "target": "NVST",
+      "weight": 1
+    },
+    {
+      "source": "MOTIVATION",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "Ma Te9efch",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Ma Te9efch",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "Ma Tebki Ya Ain",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Ma Tebki Ya Ain",
+      "target": "Myne",
+      "weight": 1
+    },
+    {
+      "source": "Ma Vie",
+      "target": "Abdeelgha4",
+      "weight": 1
+    },
+    {
+      "source": "Ma Vie",
+      "target": "Sanfara",
+      "weight": 1
+    },
+    {
+      "source": "Makhsernech (\u0645\u062e\u0633\u0631\u0646\u0627\u0634)",
+      "target": "Blingos",
+      "weight": 1
+    },
+    {
+      "source": "Malak",
+      "target": "Racha Rizk",
+      "weight": 1
+    },
+    {
+      "source": "Manetfergou",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Maps",
+      "target": "Danny Brown",
+      "weight": 1
+    },
+    {
+      "source": "Maps",
+      "target": "Kenny Segal",
+      "weight": 1
+    },
+    {
+      "source": "Maps",
+      "target": "billy woods",
+      "weight": 1
+    },
+    {
+      "source": "Maradona",
+      "target": "Bloody",
+      "weight": 1
+    },
+    {
+      "source": "Masajin",
+      "target": "Junior Hassen",
+      "weight": 1
+    },
+    {
+      "source": "Maybe I Love U Maybe IDK (unmastered)",
+      "target": "R2LF5",
+      "weight": 1
+    },
+    {
+      "source": "Maybe I Love U Maybe IDK (unmastered)",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "Mdayda",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Megalodon",
+      "target": "Kiev",
+      "weight": 1
+    },
+    {
+      "source": "Megalodon",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Mel Galb",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Mes racines",
+      "target": "Sabry Mosbah",
+      "weight": 1
+    },
+    {
+      "source": "Mic Champ",
+      "target": "Mizo-H",
+      "weight": 1
+    },
+    {
+      "source": "Midnight Drafts",
+      "target": "RamsJamsss",
+      "weight": 1
+    },
+    {
+      "source": "Midnight Drafts",
+      "target": "dopeman",
+      "weight": 1
+    },
+    {
+      "source": "Midnight Drafts",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "Mieux sans toi",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "Mieux sans toi",
+      "target": "20fyee",
+      "weight": 1
+    },
+    {
+      "source": "Mieux sans toi",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "Missing Archives",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Mixtape Vol. 2",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Mixtape \u0645\u0627\u0630\u0627\u0641\u0627\u0643\u0631",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Mixtape \u0645\u0627\u0630\u0627\u0641\u0627\u0643\u0631",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "Mixtape: 7 Days",
+      "target": "Zomra A.L.a",
+      "weight": 1
+    },
+    {
+      "source": "Moment Of Clarity",
+      "target": "Katori Walker",
+      "weight": 1
+    },
+    {
+      "source": "Moment Of Clarity",
+      "target": "Rowlan",
+      "weight": 1
+    },
+    {
+      "source": "Moment Of Clarity",
+      "target": "Jon Connor",
+      "weight": 1
+    },
+    {
+      "source": "Mouta Mouta",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Msamhin",
+      "target": "Mortadha Ftiti",
+      "weight": 1
+    },
+    {
+      "source": "N3ich Fin (RIP Cheb Terro)",
+      "target": "khadhraoui ghaith",
+      "weight": 1
+    },
+    {
+      "source": "N3ich Fin (RIP Cheb Terro)",
+      "target": "WECIM",
+      "weight": 1
+    },
+    {
+      "source": "NAKAHET",
+      "target": "1da-Toul",
+      "weight": 1
+    },
+    {
+      "source": "NAKAHET",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "NEBULA",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "NEBULA",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "NESSI ENNOUM",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "NESSI ENNOUM",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "NICE CATCH",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "NOISE CANCELLING",
+      "target": "John Six",
+      "weight": 1
+    },
+    {
+      "source": "NOISE CANCELLING",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "NONCHALANT",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Napoli",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Netmanelk Kol El Khiir",
+      "target": "Stou",
+      "weight": 1
+    },
+    {
+      "source": "New Bitch Mixtape",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "No Doubt",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "No Doubt",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "No Doubt II",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "No Doubt II",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "Noss Ellil",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "OBITO",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "OBITO",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "ONCE UPON A TIME IN 7OUMET 3AYCHA",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "OYABUN",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "OYABUN",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "OYABUN",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Odyssey (Odd To See)",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Odyssey (odd to see)",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Ola (Acoustic version)",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Old Bitch Mixtape",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "Omri T3ada",
+      "target": "NumbXiller",
+      "weight": 1
+    },
+    {
+      "source": "On My Way",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "On My Way",
+      "target": "Fresh",
+      "weight": 1
+    },
+    {
+      "source": "Opalach",
+      "target": "BadBoy 7low",
+      "weight": 1
+    },
+    {
+      "source": "Outsiders",
+      "target": "John Six",
+      "weight": 1
+    },
+    {
+      "source": "Outsiders",
+      "target": "LUAS",
+      "weight": 1
+    },
+    {
+      "source": "Outsiders",
+      "target": "L2",
+      "weight": 1
+    },
+    {
+      "source": "PIEGE",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "PLUG LIFE",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "PROPAGANDA",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "PROPAGANDA (DELUXE)",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "PTSD",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "Parasite",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Per Noi",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Per Noi",
+      "target": "Flucci",
+      "weight": 1
+    },
+    {
+      "source": "Per Noi",
+      "target": "Madou Mc",
+      "weight": 1
+    },
+    {
+      "source": "Petite foul\u00e9e",
+      "target": "Mizo-H",
+      "weight": 1
+    },
+    {
+      "source": "Please Excuse Me for Being Antisocial",
+      "target": "Roddy Ricch",
+      "weight": 1
+    },
+    {
+      "source": "Poids Lourd",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "RACHMET",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "RACHMET",
+      "target": "OXYJHIN",
+      "weight": 1
+    },
+    {
+      "source": "RAF",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "RANDOM TRACKS DAILY SUFFERING",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "RANDOM TRACKS DAILY SUFFERING",
+      "target": "TOXICOLOGY LABEL",
+      "weight": 1
+    },
+    {
+      "source": "RANDOM TRACKS DAILY SUFFERING",
+      "target": "LoopLion",
+      "weight": 1
+    },
+    {
+      "source": "RINNEGAN",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "RIQUELME",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "RISE",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "RISE OF A GANG",
+      "target": "Brotherhood Family",
+      "weight": 1
+    },
+    {
+      "source": "RISE OF A GANG",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "RISE OF A GANG",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "RISE OF A GANG",
+      "target": "Ta9chira",
+      "weight": 1
+    },
+    {
+      "source": "ROBUCHON'S JAM",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "ROLLIN'",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Raby Yostor",
+      "target": "Sanfara",
+      "weight": 1
+    },
+    {
+      "source": "Rachma Sounds Vol. 1",
+      "target": "GAL3Y",
+      "weight": 1
+    },
+    {
+      "source": "Rachma Sounds Vol. 1",
+      "target": "Vipa",
+      "weight": 1
+    },
+    {
+      "source": "Rai Futura",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Rai Futura",
+      "target": "Taymour",
+      "weight": 1
+    },
+    {
+      "source": "Ramallah",
+      "target": "Junior Hassen",
+      "weight": 1
+    },
+    {
+      "source": "Rapina",
+      "target": "Young Rz",
+      "weight": 1
+    },
+    {
+      "source": "Rapina",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Rbouk El Houma",
+      "target": "Hedi Donia",
+      "weight": 1
+    },
+    {
+      "source": "Reasonable Drought",
+      "target": "Roc Marciano",
+      "weight": 1
+    },
+    {
+      "source": "Reasonable Drought",
+      "target": "Stove God Cooks",
+      "weight": 1
+    },
+    {
+      "source": "Rmit Wraya",
+      "target": "Kaso",
+      "weight": 1
+    },
+    {
+      "source": "S3ib",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "SHAHNAMEH",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "SHAHNAMEH",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "SMS",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "SMS",
+      "target": "Ratacid",
+      "weight": 1
+    },
+    {
+      "source": "SMS",
+      "target": "Donga",
+      "weight": 1
+    },
+    {
+      "source": "SODA",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "SOFIA",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "SOFIA",
+      "target": "GAL3Y",
+      "weight": 1
+    },
+    {
+      "source": "SOTTACH",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "Saber",
+      "target": "Balti",
+      "weight": 1
+    },
+    {
+      "source": "Sada9tha",
+      "target": "Kaso",
+      "weight": 1
+    },
+    {
+      "source": "Sahara (\u0633\u0647\u0651\u0627\u0631\u0629)",
+      "target": "Tati G13",
+      "weight": 1
+    },
+    {
+      "source": "Sba9ni Wechka",
+      "target": "Tiga Blackna",
+      "weight": 1
+    },
+    {
+      "source": "Sba9ni Wechka",
+      "target": "Vipa",
+      "weight": 1
+    },
+    {
+      "source": "Sba9ni Wechka",
+      "target": "Erkez Hiphop",
+      "weight": 1
+    },
+    {
+      "source": "Sensazione ultra",
+      "target": "Ghali",
+      "weight": 1
+    },
+    {
+      "source": "Sex View",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Shams W 9amar",
+      "target": "Ktyb",
+      "weight": 1
+    },
+    {
+      "source": "Shams W 9amar",
+      "target": "Feddini",
+      "weight": 1
+    },
+    {
+      "source": "Shweraa Tafia",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Shweraa Tafia",
+      "target": "4lfa",
+      "weight": 1
+    },
+    {
+      "source": "Silent Success",
+      "target": "Kiev",
+      "weight": 1
+    },
+    {
+      "source": "Silent Success",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "Sindibad el Ward",
+      "target": "Al Nather",
+      "weight": 1
+    },
+    {
+      "source": "Sindibad el Ward",
+      "target": "Shabjdeed",
+      "weight": 1
+    },
+    {
+      "source": "Six Side",
+      "target": "SIXBOI",
+      "weight": 1
+    },
+    {
+      "source": "Snini",
+      "target": "NORDO",
+      "weight": 1
+    },
+    {
+      "source": "Sobrevolando",
+      "target": "Cultura Prof\u00e9tica",
+      "weight": 1
+    },
+    {
+      "source": "Soda",
+      "target": "BAXV",
+      "weight": 1
+    },
+    {
+      "source": "Souk",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Spin The Block",
+      "target": "K CAMP",
+      "weight": 1
+    },
+    {
+      "source": "Streams",
+      "target": "Dhalma",
+      "weight": 1
+    },
+    {
+      "source": "Streams",
+      "target": "Noor Arjoun",
+      "weight": 1
+    },
+    {
+      "source": "Streams",
+      "target": "Selim Arjoun",
+      "weight": 1
+    },
+    {
+      "source": "Streets of Africa (Freestyle)",
+      "target": "BAD KA$H",
+      "weight": 1
+    },
+    {
+      "source": "Streets of Africa (Freestyle)",
+      "target": "DvrkBoy",
+      "weight": 1
+    },
+    {
+      "source": "Streets of Africa (Freestyle)",
+      "target": "GOUCHI",
+      "weight": 1
+    },
+    {
+      "source": "Streets of Africa (Freestyle)",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "Streets of Africa (Freestyle)",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Stuxnet",
+      "target": "dopeman",
+      "weight": 1
+    },
+    {
+      "source": "Sur La T\u00eate De Ma M\u00e8re",
+      "target": "Soldjvt",
+      "weight": 1
+    },
+    {
+      "source": "TRAPLIFE",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "Tahki berasmi !!",
+      "target": "Stou",
+      "weight": 1
+    },
+    {
+      "source": "Tchedou m'debo [01 Mixtape]",
+      "target": "ElMassi",
+      "weight": 1
+    },
+    {
+      "source": "Tchedou m'debo [01 Mixtape]",
+      "target": "Vipa",
+      "weight": 1
+    },
+    {
+      "source": "The Kid X",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "The Kid X",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "The create",
+      "target": "Junior",
+      "weight": 1
+    },
+    {
+      "source": "The create",
+      "target": "Belhadj",
+      "weight": 1
+    },
+    {
+      "source": "To The Glory",
+      "target": "El Castro",
+      "weight": 1
+    },
+    {
+      "source": "Total Overdose",
+      "target": "DEJ",
+      "weight": 1
+    },
+    {
+      "source": "Total Overdose",
+      "target": "1da-Toul",
+      "weight": 1
+    },
+    {
+      "source": "Total Overdose",
+      "target": "Omara",
+      "weight": 1
+    },
+    {
+      "source": "Trafiquant",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Tribute To Cheb Terro / Pink Magic",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "Tribute To Cheb Terro / Pink Magic",
+      "target": "Hamdi Ryder",
+      "weight": 1
+    },
+    {
+      "source": "Tribute To Cheb Terro / Pink Magic",
+      "target": "Ratchopper",
+      "weight": 1
+    },
+    {
+      "source": "Trippy Boyz",
+      "target": "Trippy Boyz",
+      "weight": 1
+    },
+    {
+      "source": "Tutto Passa",
+      "target": "Young Rz",
+      "weight": 1
+    },
+    {
+      "source": "Un D\u00eda Normal",
+      "target": "Juanes",
+      "weight": 1
+    },
+    {
+      "source": "Underradar V2",
+      "target": "Pureconic",
+      "weight": 1
+    },
+    {
+      "source": "VICE CITY",
+      "target": "Catcher",
+      "weight": 1
+    },
+    {
+      "source": "VICE CITY",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "VICE CITY",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "VICES",
+      "target": "Larry June",
+      "weight": 1
+    },
+    {
+      "source": "VICES",
+      "target": "Curren$y",
+      "weight": 1
+    },
+    {
+      "source": "VICES",
+      "target": "Harry Fraud",
+      "weight": 1
+    },
+    {
+      "source": "VISION",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "VOIR DIRE",
+      "target": "Earl Sweatshirt",
+      "weight": 1
+    },
+    {
+      "source": "VOIR DIRE",
+      "target": "The Alchemist",
+      "weight": 1
+    },
+    {
+      "source": "Va Bene",
+      "target": "Yousfi",
+      "weight": 1
+    },
+    {
+      "source": "WA7LA",
+      "target": "A.L.A",
+      "weight": 1
+    },
+    {
+      "source": "WARAREY",
+      "target": "MARROUKI",
+      "weight": 1
+    },
+    {
+      "source": "WARAREY",
+      "target": "HTB",
+      "weight": 1
+    },
+    {
+      "source": "WHO'S KID ! WHAT CITY !",
+      "target": "XIIVI",
+      "weight": 1
+    },
+    {
+      "source": "WORDS OF WEAKNESS",
+      "target": "ZDEFF",
+      "weight": 1
+    },
+    {
+      "source": "WORDS OF WEAKNESS",
+      "target": "SALTY TEA",
+      "weight": 1
+    },
+    {
+      "source": "Wahda Fada'ya",
+      "target": "Galaleo",
+      "weight": 1
+    },
+    {
+      "source": "Wahda Fada'ya",
+      "target": "Amir Eid",
+      "weight": 1
+    },
+    {
+      "source": "Waves",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "We Battle The Shadows",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "We Battle The Shadows",
+      "target": "Dryveins",
+      "weight": 1
+    },
+    {
+      "source": "Wili",
+      "target": "Dhalma",
+      "weight": 1
+    },
+    {
+      "source": "Win Mechin (Deluxe Version)",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "Win Mechin (Deluxe Version)",
+      "target": "RamsJamsss",
+      "weight": 1
+    },
+    {
+      "source": "YALLA",
+      "target": "M.A",
+      "weight": 1
+    },
+    {
+      "source": "Ya Aazem Douar",
+      "target": "Cheb Bachir",
+      "weight": 1
+    },
+    {
+      "source": "Ya Ghayeb",
+      "target": "Sanfara",
+      "weight": 1
+    },
+    {
+      "source": "Ya Hbiba",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Ya Hbiba",
+      "target": "Blingos",
+      "weight": 1
+    },
+    {
+      "source": "Yabanc\u0131",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Yabanc\u0131",
+      "target": "Mahdigreb",
+      "weight": 1
+    },
+    {
+      "source": "Yabanc\u0131",
+      "target": "$MXTI",
+      "weight": 1
+    },
+    {
+      "source": "Yamma",
+      "target": "Kaso",
+      "weight": 1
+    },
+    {
+      "source": "Yeezus",
+      "target": "Kanye West",
+      "weight": 1
+    },
+    {
+      "source": "Yemma",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "Yemma",
+      "target": "Sharifa Jamal",
+      "weight": 1
+    },
+    {
+      "source": "Yeti",
+      "target": "Kiev",
+      "weight": 1
+    },
+    {
+      "source": "Yeti",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Yeti (Deluxe)",
+      "target": "Kiev",
+      "weight": 1
+    },
+    {
+      "source": "Yeti (Deluxe)",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "Ymanny Manny",
+      "target": "Katybon",
+      "weight": 1
+    },
+    {
+      "source": "Z1000",
+      "target": "DACHI",
+      "weight": 1
+    },
+    {
+      "source": "Zayn",
+      "target": "Samara",
+      "weight": 1
+    },
+    {
+      "source": "Zayn",
+      "target": "BAYA",
+      "weight": 1
+    },
+    {
+      "source": "Zidou",
+      "target": "SAFFWIZZ",
+      "weight": 1
+    },
+    {
+      "source": "Zidou",
+      "target": "GAL3Y",
+      "weight": 1
+    },
+    {
+      "source": "Zin Ezzin",
+      "target": "JenJoon",
+      "weight": 1
+    },
+    {
+      "source": "channel ORANGE",
+      "target": "John Mayer",
+      "weight": 1
+    },
+    {
+      "source": "channel ORANGE",
+      "target": "Frank Ocean",
+      "weight": 1
+    },
+    {
+      "source": "dos d'\u00e2ne",
+      "target": "Fossa",
+      "weight": 1
+    },
+    {
+      "source": "dos d'\u00e2ne",
+      "target": "TOXICOLOGY LABEL",
+      "weight": 1
+    },
+    {
+      "source": "hue_man nature",
+      "target": "Saba",
+      "weight": 1
+    },
+    {
+      "source": "hue_man nature",
+      "target": "No ID",
+      "weight": 1
+    },
+    {
+      "source": "missing archives (deluxe edition)",
+      "target": "Wingz",
+      "weight": 1
+    },
+    {
+      "source": "thank you for waiting",
+      "target": "Na$s 2y2",
+      "weight": 1
+    },
+    {
+      "source": "\u0628\u062d\u0631",
+      "target": "90s Shawty",
+      "weight": 1
+    },
+    {
+      "source": "\u0628\u062d\u0631",
+      "target": "7Baby",
+      "weight": 1
+    },
+    {
+      "source": "\u062a\u0627\u0644\u0627\u0628\u064a\u0628",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "\u0630\u0643\u0631\u064a\u0627\u062a",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "\u0639\u062f\u0646\u0627\u0646 \u0648\u0644\u064a\u0646\u0627",
+      "target": "Cheb terro",
+      "weight": 1
+    },
+    {
+      "source": "\u0639\u0642\u062f \u0627\u062d\u062a\u0631\u0627\u0641",
+      "target": "Marwan Moussa",
+      "weight": 1
+    },
+    {
+      "source": "\u0641\u064a \u0638\u0644\u0627\u0645 \u0627\u0644\u0644\u064a\u0644",
+      "target": "Aymen Lessigue",
+      "weight": 1
+    },
+    {
+      "source": "\u0641\u064a \u0638\u0644\u0627\u0645 \u0627\u0644\u0644\u064a\u0644",
+      "target": "Artmasta",
+      "weight": 1
+    },
+    {
+      "source": "\u0645\u0645.. \u0645\u0627\u0643\u0644\u0629\u061f",
+      "target": "1da-Toul",
+      "weight": 1
+    },
+    {
+      "source": "\u0645\u0645.. \u0645\u0627\u0643\u0644\u0629\u061f",
+      "target": "Matsuda",
+      "weight": 1
+    },
+    {
+      "source": "\u0645\u0645.. \u0645\u0627\u0643\u0644\u0629\u061f",
+      "target": "Omara",
+      "weight": 1
+    }
+  ]
+}
